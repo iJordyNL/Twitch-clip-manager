@@ -30,14 +30,14 @@
 		"command_key": "Activeer dashboard toegang.",
 
 		"addField_3": "Reset command",
-		"command_setup_reset": "reset alle toegang inclusief de clip channel kanaal."
+		"command_setup_reset": "Reset alle toegang inclusief de 'clip channel' kanaal."
 	},
 	"key": {
 		"error": {
 			"no_key": "Geef de sleutel op!",
 			"already_registered": "U bent al geregistreerd in deze server!",
 			"wrong_guild": "Gebruik deze sleutel in het geselecteerde server!",
-			"key_not_exist": "Deze sleutel bestaat niet of deze sleutel is al gebruikt."
+			"key_not_exist": "Deze sleutel bestaat niet of al gebruikt. Als je denkt dat dit fout is, neem dan contact op me je server administrator."
 		},
 		"success": "Je sleutel `${key}` is succesvol geactiveerd! U kunt nu inloggen op https://dashboard.clipmanager.net/. Vragen? https://clipmanager.net/discord"
 	},
