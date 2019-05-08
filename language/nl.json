@@ -7,20 +7,20 @@
 	"main": {
 		"arg_channelid": "<tekstkanaal-id>",
 		"arg_key": "<sleutel>",
-		"invailid_permission_bot": "Ongeldige rechten. ik heb de **${permission}** rechten nodig!",
+		"invailid_permission_bot": "Ongeldige rechten. Ik heb de **${permission}** rechten nodig!",
 		"invailid_permission_user": "Ongeldige rechten. U heeft de **${permission}** rechten nodig!"
 	},
 	"setup": {
 		"error": {
 			"no_args": "Je hebt geen argument ingevuld!",
-			"already_active": "Clip manager is al actief en ingesteld",
+			"already_active": "Clip Manager is al actief en ingesteld",
 			"reset": "Weet je zeker dat je de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via **${prefix}setup ${channelid}**!\n Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
 			"action_success": "U hebt zojuist alle toegang verwijderd. Als u Clip manager opnieuw wilt gebruiken, type",
 			"channelnotexist": "Deze **tekstkanaal** bestaat niet. Vul een geldige tekstkanaal id in!"
 		},
 		"reset": {
-			"setAuthor": "Clip manager is succesvol ingesteld",
-			"setDescription": "Clip manager is zojuist succesvol ingesteld. Hieronder ziet u welk kanaal is ingesteld en de URL van het webpaneel.",
+			"setAuthor": "Clip Manager is succesvol ingesteld",
+			"setDescription": "Clip Manager is zojuist succesvol ingesteld. Hieronder ziet u welk kanaal is ingesteld en de URL van het webpaneel.",
 			"addField_1": "Tekstkanaal",
 			"addField_2": "Webpaneel",
 			"addField_3": "Discord"

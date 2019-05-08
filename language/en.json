@@ -14,13 +14,13 @@
 		"error": {
 			"no_args": "Please provide some arguments!",
 			"already_active": "Clip Manager is already active and set up",
-			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be set up with **${prefix}setup ${channelid}**!\n Answer within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
+			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be set up with **${prefix}setup ${channelid}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
 			"action_success": "You have removed all access. If you want to use Clip Manager again, type",
 			"channelnotexist": "**Channel** does not exist. Please enter a valid channel id!"
 		},
 		"reset": {
 			"setAuthor": "Clip Manager has been successfully set up",
-			"setDescription": "Clip Manager has just been successfully set up. Below you can see which channel has been created and the webpanel url.",
+			"setDescription": "Clip Manager has been successfully set up. Below you can see which channel has been set and the webpanel url.",
 			"addField_1": "Channel set",
 			"addField_2": "Webpanel",
 			"addField_3": "Discord"
@@ -28,10 +28,10 @@
 	},
 	"help": {
 		"addField_1": "General Commands",
-		"command_help": "Shows all of my commands",
+		"command_help": "Displays all of my commands",
 
 		"addField_2": "Configuration Commands",
-		"command_setup": "Setup ClipManager",
+		"command_setup": "Setup Clip Manager",
 		"command_key": "Activate dashboard access",
 
 		"addField_3": "Reset command",
