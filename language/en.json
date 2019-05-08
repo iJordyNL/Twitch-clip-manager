@@ -1,0 +1,60 @@
+{
+	"main": {
+		"arg_channelid": "<channel-id>",
+		"arg_key": "<key>",
+		"invailid_permission_bot_1": "Invailid permissions. I need the",
+		"invailid_permission_bot_2": "permission!",
+		"invailid_permission_user_1": "Invailid permissions. You don't have the",
+		"invailid_permission_user_2": "permission!"
+	},
+	"setup": {
+		"error": {
+			"no_args": "Please provide some arguments!",
+			"already_active": "Clip Manager is already active and set up",
+			"reset_1": "Are you sure you want to reset the bot? **WARNING** All access will be deleted and the bot must be set up with",
+			"reset_2": "Answer within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
+			"action_success": "You have just removed all access. If you want to use Clip Manager again, type",
+			"channelnotexist": "**Channel** doesn't exist. Please enter a valid channel id!"
+		},
+		"reset": {
+			"setAuthor": "Clip Manager has been successfully set up",
+			"setDescription": "Clip manager has just been successfully set up. Below you can see which channel has been created and the webpanel url.",
+			"addField_1": "Channel set",
+			"addField_2": "Webpanel",
+			"addField_3": "Discord"
+		}
+	},
+	"help": {
+		"addField_1": "General Commands",
+		"command_help": "Shows all of my commands",
+
+		"addField_2": "Configuration Commands",
+		"command_setup": "Setup the ClipManager",
+		"command_key": "Activate dashboard access",
+
+		"addField_3": "Reset command",
+		"command_setup_reset": "reset all access / clip channel id."
+	},
+	"key": {
+		"error": {
+			"no_key": "Please provide the key!",
+			"already_registered": "You are already registered in this guild!",
+			"wrong_guild": "Please use this key in the selected guild!",
+			"key_not_exist": "This key does not exist or this key has already been used.",
+			"sucess": "Your key",
+			"sucess_2": "has been successfully activated! You can now log in to https://dashboard.clipmanager.net/. Questions? https://clipmanager.net/discord"
+		}
+	},
+	"client_message": {
+		"error": {
+			"clipsonly": "Only the clips from **${$twitchuser}** can be placed here!",
+			"cantfindclip": "Something went wrong. I cannot find that clip.",
+			"alreadyposted": "Something went wrong. This clip has already been posted.",
+			"canttalk": "Unfortunately you are not allowed to talk here. This channel <#${$channel}> is only for Twitch clips.",
+			"wrongurl": "Something went wrong with your link. Does your link come over with the example?",
+			"wrongurl_addfield_example": "Example",
+			"wrongurl_addfield_message": "Your message was"
+		},
+		"updatechannel": "There are currently ${result.length} ${getclipname} submitted! | You can only post 1 clip per message!"
+	}
+}
