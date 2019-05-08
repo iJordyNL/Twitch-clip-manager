@@ -2,17 +2,14 @@
 	"main": {
 		"arg_channelid": "<tekstkanaal-id>",
 		"arg_key": "<sleutel>",
-		"invailid_permission_bot_1": "Ongeldige rechten. ik heb de ",
-		"invailid_permission_bot_2": "rechten nodig!",
-		"invailid_permission_user_1": "Ongeldige rechten. U heeft de",
-		"invailid_permission_user_2": "rechten nodig!"
+		"invailid_permission_bot": "Ongeldige rechten. ik heb de **${permission}** rechten nodig!",
+		"invailid_permission_user": "Ongeldige rechten. U heeft de **${permission}** rechten nodig!"
 	},
 	"setup": {
 		"error": {
 			"no_args": "Je hebt geen argument ingevuld!",
 			"already_active": "Clip manager is al actief en ingesteld",
-			"reset_1": "Weet je zeker dat je de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via",
-			"reset_2": "Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
+			"reset": "Weet je zeker dat je de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via **${prefix}setup ${channelid}**!\n Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
 			"action_success": "U hebt zojuist alle toegang verwijderd. Als u Clip manager opnieuw wilt gebruiken, type",
 			"channelnotexist": "Deze **tekstkanaal** bestaat niet. Vul een geldige tekstkanaal id in!"
 		},
@@ -40,17 +37,16 @@
 			"no_key": "Geef de sleutel op!",
 			"already_registered": "U bent al geregistreerd in deze server!",
 			"wrong_guild": "Gebruik deze sleutel in het geselecteerde server!",
-			"key_not_exist": "Deze sleutel bestaat niet of deze sleutel is al gebruikt.",
-			"sucess": "Je sleutel",
-			"sucess_2": "is succesvol geactiveerd! U kunt nu inloggen op https://dashboard.clipmanager.net/. Vragen? https://clipmanager.net/discord"
-		}
+			"key_not_exist": "Deze sleutel bestaat niet of deze sleutel is al gebruikt."
+		},
+		"success": "Je sleutel `${key}` is succesvol geactiveerd! U kunt nu inloggen op https://dashboard.clipmanager.net/. Vragen? https://clipmanager.net/discord"
 	},
 	"client_message": {
 		"error": {
-			"clipsonly": "Alleen de clips van **${$twitchuser}** kan hier worden geplaatst!",
+			"clipsonly": "Alleen de clips van **${twitchuser}** kan hier worden geplaatst!",
 			"cantfindclip": "Er is iets fout gegaan. Ik kan de clip niet vinden.",
 			"alreadyposted": "Er is iets fout gegaan. Deze clip is al eerder geplaatst.",
-			"canttalk": "Helaas mag je hier niet praten. Deze tekstkanaal <#${$channel}> is alleen voor Twitch clips.",
+			"canttalk": "Helaas mag je hier niet praten. Deze tekstkanaal <#${channel}> is alleen voor Twitch clips.",
 			"wrongurl": "Er is iets fout gegaan met je link. Komt uw link met het voorbeeld overeen?",
 			"wrongurl_addfield_example": "Voorbeeld",
 			"wrongurl_addfield_message": "Jouw bericht was"
