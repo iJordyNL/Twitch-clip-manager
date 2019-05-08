@@ -1,4 +1,9 @@
 {
+	"translator": {
+		"author": " <Name(s) here>",
+		"discord": " <Tag here> ",
+		"language": " <full language here> "
+	},
 	"main": {
 		"arg_channelid": "<channel-id>",
 		"arg_key": "<key>",
