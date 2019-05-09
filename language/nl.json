@@ -15,8 +15,8 @@
 			"no_args": "Je hebt geen argument ingevuld!",
 			"already_active": "Clip Manager is al actief en ingesteld",
 			"reset": "Weet je zeker dat je de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via **${prefix}setup ${channelid}**!\n Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
-			"action_success": "U hebt zojuist alle toegang verwijderd. Als u Clip manager opnieuw wilt gebruiken, type",
-			"channelnotexist": "Deze **tekstkanaal** bestaat niet. Vul een geldige tekstkanaal id in!"
+			"action_success": "U heeft zojuist alle toegang verwijderd. Als u Clip manager opnieuw wilt gebruiken, type",
+			"channelnotexist": "Dit **tekstkanaal** bestaat niet. Vul een geldige tekstkanaal id in!"
 		},
 		"reset": {
 			"setAuthor": "Clip Manager is succesvol ingesteld",
