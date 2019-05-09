@@ -7,8 +7,8 @@
 	"main": {
 		"arg_channelid": "<tekstkanaal-id>",
 		"arg_key": "<sleutel>",
-		"invailid_permission_bot": "Ongeldige rechten. Ik heb de **${permission}** rechten nodig!",
-		"invailid_permission_user": "Ongeldige rechten. U heeft de **${permission}** rechten nodig!"
+		"invalid_permission_bot": "Ongeldige rechten. Ik heb de **${permission}** rechten nodig!",
+		"invalid_permission_user": "Ongeldige rechten. U heeft de **${permission}** rechten nodig!"
 	},
 	"setup": {
 		"error": {

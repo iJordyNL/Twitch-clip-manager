@@ -7,8 +7,8 @@
 	"main": {
 		"arg_channelid": "<channel-id>",
 		"arg_key": "<key>",
-		"invailid_permission_bot": "Invalid permissions. I need the **${permission}** permission!",
-		"invailid_permission_user": "Invalid permissions. You don't have the **${permission}** permission!"
+		"invalid_permission_bot": "Invalid permissions. I need the **${permission}** permission!",
+		"invalid_permission_user": "Invalid permissions. You don't have the **${permission}** permission!"
 	},
 	"setup": {
 		"error": {
