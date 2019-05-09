@@ -1,8 +1,14 @@
 {
 	"translator": {
-		"author": " GodlyFox and iJordyNL",
-		"discord": " GodlyFox.#3462 and Jordy.#0001 ",
-		"language": " English "
+		"github": "GodlyFox & iJordyNL",
+		"discord": "GodlyFox.#3462 & Jordy.#0001",
+		"language": "English",
+		"last_update": "9 May 2019 19:33",
+
+		"addfield_1": "Translators",
+		"addfield_2": "Github usernames",
+		"addfield_3": "Last update",
+		"addfield_4": "Language"
 	},
 	"main": {
 		"arg_channelid": "<channel-id>",
