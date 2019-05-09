@@ -1,8 +1,14 @@
 {
 	"translator": {
-		"author": " GodlyFox en iJordyNL",
-		"discord": " GodlyFox.#3462 en Jordy.#0001 ",
-		"language": " Nederlands "
+		"github": "GodlyFox & iJordyNL",
+		"discord": "GodlyFox.#3462 & Jordy.#0001",
+		"language": "Nederlands",
+		"last_update": "9 Mei 2019 19:33",
+
+		"addfield_1": "Vertalers",
+		"addfield_2": "Github gebruikersnaam",
+		"addfield_3": "Laatste update",
+		"addfield_4": "Taal"
 	},
 	"main": {
 		"arg_channelid": "<tekstkanaal-id>",
