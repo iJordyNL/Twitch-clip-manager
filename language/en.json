@@ -14,13 +14,13 @@
 		"error": {
 			"no_args": "Please provide some arguments!",
 			"already_active": "Clip Manager is already active and set up",
-			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be set up with **${prefix}setup ${channelid}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
+			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be re-set with **${prefix}setup ${channelid}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
 			"action_success": "You have removed all access. If you want to use Clip Manager again, type",
 			"channelnotexist": "**Channel** does not exist. Please enter a valid channel id!"
 		},
 		"reset": {
 			"setAuthor": "Clip Manager has been successfully set up",
-			"setDescription": "Clip Manager has been successfully set up. Below you can see which channel has been set and the webpanel url.",
+			"setDescription": "Clip Manager has been successfully set up. Below you can see the webpanel url and which channel has been set.",
 			"addField_1": "Channel set",
 			"addField_2": "Webpanel",
 			"addField_3": "Discord"

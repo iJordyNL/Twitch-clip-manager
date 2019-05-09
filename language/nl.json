@@ -12,9 +12,9 @@
 	},
 	"setup": {
 		"error": {
-			"no_args": "Je hebt geen argument ingevuld!",
+			"no_args": "U hebt geen argument ingevuld!",
 			"already_active": "Clip Manager is al actief en ingesteld",
-			"reset": "Weet je zeker dat je de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via **${prefix}setup ${channelid}**!\n Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
+			"reset": "Weet u zeker dat u de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via **${prefix}setup ${channelid}**!\n Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
 			"action_success": "U heeft zojuist alle toegang verwijderd. Als u Clip manager opnieuw wilt gebruiken, type",
 			"channelnotexist": "Dit **tekstkanaal** bestaat niet. Vul een geldige tekstkanaal id in!"
 		},
@@ -41,21 +41,21 @@
 		"error": {
 			"no_key": "Geef de sleutel op!",
 			"already_registered": "U bent al geregistreerd in deze server!",
-			"wrong_guild": "Gebruik deze sleutel in het geselecteerde server!",
-			"key_not_exist": "Deze sleutel bestaat niet of al gebruikt. Als je denkt dat dit fout is, neem dan contact op me je server administrator."
+			"wrong_guild": "Gebruik deze sleutel in de geselecteerde server!",
+			"key_not_exist": "Deze sleutel bestaat niet of is al gebruikt. Als u denkt dat dit fout is, neem dan contact op met uw server administrator."
 		},
-		"success": "Je sleutel `${key}` is succesvol geactiveerd! U kunt nu inloggen op https://dashboard.clipmanager.net/. Vragen? https://clipmanager.net/discord"
+		"success": "Uw sleutel `${key}` is succesvol geactiveerd! U kunt nu inloggen op https://dashboard.clipmanager.net/. Vragen? https://clipmanager.net/discord"
 	},
 	"client_message": {
 		"error": {
 			"clipsonly": "Alleen de clips van **${twitchuser}** kan hier worden geplaatst!",
 			"cantfindclip": "Er is iets fout gegaan. Ik kan de clip niet vinden.",
 			"alreadyposted": "Er is iets fout gegaan. Deze clip is al eerder geplaatst.",
-			"canttalk": "Helaas mag je hier niet praten. Deze tekstkanaal <#${channel}> is alleen voor Twitch clips.",
-			"wrongurl": "Er is iets fout gegaan met je link. Komt uw link met het voorbeeld overeen?",
+			"canttalk": "Helaas mag u hier niet praten. Dit tekstkanaal <#${channel}> is alleen voor Twitch clips.",
+			"wrongurl": "Er is iets fout gegaan met uw link. Komt uw link met het voorbeeld overeen?",
 			"wrongurl_addfield_example": "Voorbeeld",
-			"wrongurl_addfield_message": "Jouw bericht was"
+			"wrongurl_addfield_message": "Uw bericht was"
 		},
-		"updatechannel": "Er zijn momenteel ${result.length} ${getclipname} ingestuurd! | Je kan maar 1 clip per bericht plaatsen!"
+		"updatechannel": "Er zijn momenteel ${result.length} ${getclipname} ingestuurd! | U kunt maar 1 clip per bericht plaatsen!"
 	}
 }
