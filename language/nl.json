@@ -3,7 +3,7 @@
 		"github": "GodlyFox & iJordyNL",
 		"discord": "GodlyFox.#3462 & Jordy.#0001",
 		"language": "Nederlands",
-		"last_update": "9 Mei 2019 19:33",
+		"last_update": "10 Mei 2019 16:40",
 
 		"addfield_1": "Vertalers",
 		"addfield_2": "Github gebruikersnaam",
@@ -18,7 +18,7 @@
 	},
 	"setup": {
 		"error": {
-			"no_args": "U hebt geen argument ingevuld!",
+			"no_args": "U heeft geen argument ingevuld!",
 			"already_active": "Clip Manager is al actief en ingesteld",
 			"reset": "Weet u zeker dat u de bot wilt resetten? **Waarschuwing** Alle toegang zal worden verwijderd en de bot moet opnieuw ingesteld worden via **${prefix}setup ${channelid}**!\n Antwoord binnen **10** Seconden met **Confirm-reset**. Anders wordt deze actie automatisch ongedaan gemaakt.",
 			"action_success": "U heeft zojuist alle toegang verwijderd. Als u Clip manager opnieuw wilt gebruiken, type",
@@ -37,7 +37,7 @@
 		"command_help": "Weergeeft all mijn commands.",
 
 		"addField_2": "Configuratie commands",
-		"command_setup": "Installeer clip manager.",
+		"command_setup": "Installeer Clip Manager.",
 		"command_key": "Activeer dashboard toegang.",
 
 		"addField_3": "Reset command",

@@ -1,0 +1,67 @@
+{
+	"translator": {
+		"github": "GodlyFox (Übersetzt von einer Maschine) || Wir suchen einen Übersetzer.",
+		"discord": "GodlyFox.#3462",
+		"language": "Deutch",
+		"last_update": "10 Mai 2019 16:46",
+
+		"addfield_1": "Übersetzers",
+		"addfield_2": "GitHub Benutzername",
+		"addfield_3": "Letztes update",
+		"addfield_4": "Zunge"
+	},
+	"main": {
+		"arg_channelid": "<Textkanal-ID>",
+		"arg_key": "<Schlüssel>",
+		"invalid_permission_bot": "Ungültige Rechte. Ich brauche die **${permission}** Rechte!",
+		"invalid_permission_user": "Ungültige Rechte. Du brauchst die **${permission}** Rechte!"
+	},
+	"setup": {
+		"error": {
+			"no_args": "Du hast kein Argument eingegeben!",
+			"already_active": "Der Clip Manager ist bereits aktiv und eingerichtet.",
+			"reset": "Bist du sicher, dass du den Knochen zurücksetzen willst? **Warnung** Alle Zugriffe werden entfernt und der Bot muss über **${prefix}setup ${channelid}**!\n Antwort innerhalb von **10** Sekunden mit **Confirm-reset** zurückgesetzt werden. Andernfalls wird diese Aktion automatisch rückgängig gemacht.",
+			"action_success": "Du hast gerade alle Zugriffe entfernt. Wenn Sie den Clip Manager wiederverwenden möchten, geben Sie Folgendes ein",
+			"channelnotexist": "Dieser **Textkanal** existiert nicht. Geben Sie eine gültige Textkanal-ID ein!"
+		},
+		"reset": {
+			"setAuthor": "Der Clip Manager wurde erfolgreich eingerichtet.",
+			"setDescription": "Der Clip Manager wurde gerade erfolgreich eingerichtet. Unten sehen Sie, welcher Kanal eingestellt wurde und die URL des Web-Panels.",
+			"addField_1": "Textkanal",
+			"addField_2": "Web-Panel",
+			"addField_3": "Discord"
+		}
+	},
+	"help": {
+		"addField_1": "Allgemeine Kommandos",
+		"command_help": "Zeigt alle meine Kommandos an.",
+
+		"addField_2": "Konfigurationskommandos",
+		"command_setup": "Clip Manager installieren.",
+		"command_key": "Aktivieren Sie den Dashboardzugriff.",
+
+		"addField_3": "Reset-Kommando",
+		"command_setup_reset": "Setzt den gesamten Zugriff zurück, einschließlich des Kanals 'Clip-Kanal'."
+	},
+	"key": {
+		"error": {
+			"no_key": "Geben Sie den Schlüssel an!",
+			"already_registered": "Du bist bereits auf diesem Server registriert!",
+			"wrong_guild": "Benutze diesen Schlüssel auf dem ausgewählten Server!",
+			"key_not_exist": "Dieser Schlüssel existiert nicht oder wurde bereits verwendet. Wenn Sie der Meinung sind, dass dies falsch ist, wenden Sie sich bitte an Ihren Serveradministrator."
+		},
+		"success": "Dein Schlüssel `${key}` wurde erfolgreich aktiviert! Du kannst dich jetzt unter https://dashboard.clipmanager.net/. einloggen. Fragen: https://clipmanager.net/discord"
+	},
+	"client_message": {
+		"error": {
+			"clipsonly": "Nur die Clips von **${twitchuser}** können hier platziert werden!",
+			"cantfindclip": "Etwas ist schief gelaufen. Ich kann den Clip nicht finden.",
+			"alreadyposted": "Etwas ist schief gelaufen. Dieser Clip wurde schon einmal platziert.",
+			"canttalk": "Leider dürfen Sie hier nicht reden. Dieser Textkanal <#${channel}> ist nur für Twitch-Clips.",
+			"wrongurl": "Etwas ist mit Ihrem Link schief gelaufen. Stimmt dein Link mit dem Beispiel überein?",
+			"wrongurl_addfield_example": "Beispiel",
+			"wrongurl_addfield_message": "Deine Nachricht war"
+		},
+		"updatechannel": "Aktuell ${result.length} ${getclipname} wurde eingeschickt! | Du kannst nur 1 Clip pro Nachricht posten!""
+	}
+}
