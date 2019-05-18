@@ -3,7 +3,7 @@
 		"github": "GodlyFox (Übersetzt von einer Maschine) || Wir suchen einen Übersetzer.",
 		"discord": "GodlyFox.#3462",
 		"language": "Deutch",
-		"last_update": "10 Mai 2019 16:46",
+		"last_update": "10 Mai 2019 16:20",
 
 		"addfield_1": "Übersetzers",
 		"addfield_2": "GitHub Benutzername",
@@ -17,6 +17,7 @@
 		"invalid_permission_user": "Ungültige Rechte. Du brauchst die **${permission}** Rechte!"
 	},
 	"setup": {
+		"args": "<channel-id oder #channel-tag>",
 		"error": {
 			"no_args": "Du hast kein Argument eingegeben!",
 			"already_active": "Der Clip Manager ist bereits aktiv und eingerichtet.",
@@ -24,6 +25,8 @@
 			"action_success": "Du hast gerade alle Zugriffe entfernt. Wenn Sie den Clip Manager wiederverwenden möchten, geben Sie Folgendes ein",
 			"channelnotexist": "Dieser **Textkanal** existiert nicht. Geben Sie eine gültige Textkanal-ID ein!"
 		},
+		"setup_success": "Du hast alle Zugriffe entfernt. Wenn Sie den Clip Manager wieder verwenden möchten, geben Sie Folgendes ein **${prefix}setup ${args}**",
+
 		"reset": {
 			"setAuthor": "Der Clip Manager wurde erfolgreich eingerichtet.",
 			"setDescription": "Der Clip Manager wurde gerade erfolgreich eingerichtet. Unten sehen Sie, welcher Kanal eingestellt wurde und die URL des Web-Panels.",
@@ -57,6 +60,7 @@
 			"clipsonly": "Nur die Clips von **${twitchuser}** können hier platziert werden!",
 			"cantfindclip": "Etwas ist schief gelaufen. Ich kann den Clip nicht finden.",
 			"alreadyposted": "Etwas ist schief gelaufen. Dieser Clip wurde schon einmal platziert.",
+			"cantpostfiles": "Leider können Sie hier keine Anhänge posten. Dieser Kanal <#${channel}> ist nur für Twitch-Clips.",
 			"canttalk": "Leider dürfen Sie hier nicht reden. Dieser Textkanal <#${channel}> ist nur für Twitch-Clips.",
 			"wrongurl": "Etwas ist mit Ihrem Link schief gelaufen. Stimmt dein Link mit dem Beispiel überein?",
 			"wrongurl_addfield_example": "Beispiel",

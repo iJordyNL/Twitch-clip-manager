@@ -3,7 +3,7 @@
 		"github": "GodlyFox & iJordyNL",
 		"discord": "GodlyFox.#3462 & Jordy.#0001",
 		"language": "English",
-		"last_update": "9 May 2019 19:33",
+		"last_update": "18 May 2019 16:20",
 
 		"addfield_1": "Translators",
 		"addfield_2": "Github usernames",
@@ -17,7 +17,7 @@
 		"invalid_permission_user": "Invalid permissions. You don't have the **${permission}** permission!"
 	},
 	"setup": {
-		"args": "<channel-id or channel-tag>",
+		"args": "<channel-id or #channel-tag>",
 		"error": {
 			"no_args": "Please provide some arguments! **${prefix}setup ${args}**",
 			"already_active": "Clip Manager is already active and set up",
@@ -62,7 +62,7 @@
 			"alreadyposted": "Something went wrong. This clip has already been posted.",
 			"cantpostfiles": "Unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.",
 			"canttalk": "Unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
-			"wrongurl": "Something went wrong with your link. Does your link match the example?",
+			"wrongurl": "Something went wrong regarding your link. Does your link match the example?",
 			"wrongurl_addfield_example": "Example",
 			"wrongurl_addfield_message": "Your message was"
 		},
