@@ -17,13 +17,16 @@
 		"invalid_permission_user": "Invalid permissions. You don't have the **${permission}** permission!"
 	},
 	"setup": {
+		"args": "<channel-id or channel-tag>",
 		"error": {
-			"no_args": "Please provide some arguments!",
+			"no_args": "Please provide some arguments! **${prefix}setup ${args}**",
 			"already_active": "Clip Manager is already active and set up",
-			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be re-set with **${prefix}setup ${channelid}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
-			"action_success": "You have removed all access. If you want to use Clip Manager again, type",
-			"channelnotexist": "**Channel** does not exist. Please enter a valid channel id!"
+			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be re-set with **${prefix}setup ${args}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
+			"channelnotexist": "This channel does not exist.",
+			"wrongchannelformat": "This channel does not exist. Please tag a channel-name or enter a channel-id!"
 		},
+		"setup_success": "You have removed all access. If you want to use Clip Manager again, type **${prefix}setup ${args}**",
+
 		"reset": {
 			"setAuthor": "Clip Manager has been successfully set up",
 			"setDescription": "Clip Manager has been successfully set up. Below you can see the webpanel url and which channel has been set.",
@@ -57,6 +60,7 @@
 			"clipsonly": "Only the clips from **${twitchuser}** can be placed here!",
 			"cantfindclip": "Something went wrong. I cannot find that clip.",
 			"alreadyposted": "Something went wrong. This clip has already been posted.",
+			"cantpostfiles": "Unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.",
 			"canttalk": "Unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
 			"wrongurl": "Something went wrong with your link. Does your link match the example?",
 			"wrongurl_addfield_example": "Example",
