@@ -187,5 +187,21 @@
 		},
 		"success": "Geplaatst door",
 		"updatechannel": "Er zijn momenteel ${count} ${clips} ingestuurd! | Je kunt maar 1 clip per bericht plaatsen!"
+	},
+	
+	
+	"lang": {
+		"_comment": "Translation for language.js",
+		"embed_start": {
+			"_comment": "Start of settings language",
+			"title": "**Taal instellingen**",
+			"description": "Hieronder ziet u de beschikbare talen voor Clip Manager. Druk op een vlag om de taal te selecteren die u wilt gebruiken.",
+			"field_1": "**Beschikbare talen**",
+			"field_1_description": "Sluit dit bericht",
+			"field_2": "**Wij zijn op zoek naar u**",
+			"field_2_description": "Kunt u Nederlands vertalen naar uw moedertaal of een taal die u begrijpt? Ja? Geweldig! We zijn op zoek naar vertalers. Wilt u vertaler worden? Word lid van onze Discord server ${discord}"
+		},
+		"already_this_language": "**${user}** de bot taal was al ingesteld op Nederlands. Actie **taal instellingen** is ongedaan gemaakt.",
+		"out_of_time": "**${user}** je heeft niet binnen 30 seconden gereageerd. De actie **taal instellingen** is ongedaan gemaakt."
 	}
 }
