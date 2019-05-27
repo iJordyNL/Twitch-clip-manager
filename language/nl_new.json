@@ -89,37 +89,37 @@
 	
 	"about": {
 			"_comment": "Translation for about.js",
-			"title": "**Who am I?**",
-			"description": "I am Clip Manager, I help people who make compilations of Twitch clips. For example, YouTube. See all my commands by sending ${prefix}help",
-			"field_1_title": "**My Website**",
-			"field_1_description": "You can find me at ${website}",
+			"title": "**Wie ben ik?**",
+			"description": "Ik ben Clip Manager, Ik help mensen die compilaties maken van Twitch clips. Voor bijvoorbeeld om het op YouTube te plaatsen. Bekijk al mijn command's door het sturen van ${prefix}help",
+			"field_1_title": "**Mijn website**",
+			"field_1_description": "Je kan mij vinden op ${website}",
 			"field_2_title": "**Premium**",
-			"field_2_description": "To support my development I offer some features that are only available to premium users. Clip Manager Premium is available on ${website} at a low cost."
+			"field_2_description": "Om mijn ontwikkeling te ondersteunen bied ik een aantal functies die alleen beschikbaar zijn voor premium gebruikers. Clip Manager Premium is beschikbaar op ${website}tegen lage kosten."
 	},
 
 
 	"help": {
 		"_comment": "Translation for help.js",
-		"field_1": "**General Commands**",
-		"command_help": "Displays all of my commands.",
-		"command_about": "Get to know who I am.",
-		"command_status": "Get information about the status of Clip Manager.",
-		"command_translator": "See who translated this language.",
+		"field_1": "**Algemene commands**",
+		"command_help": "Weergeeft al mijn commands.",
+		"command_about": "Leer te weten wie ik ben.",
+		"command_status": "Informatie over de status van Clip Manager.",
+		"command_translator": "Kijk wie deze taal vertaald heeft.",
 
-		"field_2": "**Configuration Commands**",
-		"command_setup": "Setup Clip Manager.",
-		"command_key": "Activate dashboard access.",
+		"field_2": "**Configuratie commands**",
+		"command_setup": "Installeer Clip Manager.",
+		"command_key": "Activeer dashboard toegang.",
 
 		"field_3": "**Reset command**",
-		"command_reset": "Resets everything that has been set up. Also access to the dashboard and all clips that have been sent!"
+		"command_reset": "Resets alles wat is ingesteld opnieuw in. Ook toegang tot het dashboard en alle clips die zijn verzonden!"
 	},
 
 
 	"status": {
 		"_comment": "Translation for status.js",
 		"embed_statistics": {
-			"title":"**Statistics**",
-			"description": "I am in **${count_servers}** servers\n There are **${count_setup}** servers successfully set up.\n There are **${count_totalguildclips}** total clips sended."
+			"title":"**Statistieken**",
+			"description": "Ik zit in **${count_servers}** servers\n Er zijn **${count_setup}** servers succesvol geïnstalleerd.\n Er zijn totaal **${count_totalguildclips}** clips verstuurt."
 		}
 	},
 
@@ -128,12 +128,12 @@
 		"_comment": "Translation for key.js",
 		"embed_start": {
 			"_comment": "Command activated",
-			"title": "**Do you have a access key?**",
-			"description": "**${user}** did you get a key from someone? Yes ✅ | No ❎"
+			"title": "**Heb je een sleutel?**",
+			"description": "**${user}** heb je van iemand een sleutel gekregen? Ja ✅ | Nee ❎"
 		},
 		"embed_enterkey": {
 			"_comment": "COMMENT?!??",
-			"description": "**${user}** please type now a valid access key in order to gain access to.\n Type ``Cancel`` to stop the access key command."
+			"description": "**${user}** typ nu een geldige toegangssleutel om toegang te krijgen tot het server dashboard.\n Typ ``Cancel``` om het command voor de toegangssleutel te stoppen."
 		},
 		"embed_keyalreadyactive": {
 			"_comment": "Key is already activated.",
@@ -153,10 +153,10 @@
 		},
 		"embed_success": {
 			"_comment": "This key is correct.",
-			"description": "**${user}** Your key `${key}` has been successfully activated! You can now log in to ${dashboard}. Questions? ${discord}"
+			"description": "**${user}** je sleutel `${key}` is succesvol geactiveerd! Je kunt nu inloggen op ${dashboard}. Vragen? ${discord}"
 		},
-		"cancel_success": "**${user}** you have successfully cancelled the access key command.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"cancel_success": "**${user}** je hebt met succes de command voor de toegang sleutel geannuleerd.",
+		"out_of_time": "Je heeft niet binnen 30 seconden gereageerd. De actie is ongedaan gemaakt."
 	},
 
 
@@ -179,7 +179,7 @@
 		},
 		"embed_noattachments": {
 			"_comment": "Cant post attachments",
-			"description": "**${user}** unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.."
+			"description": "**${user}** Helaas, je kunt hier geen bijlagen plaatsen. Dit tekstkanaal <#${channel}> is alleen voor Twitch clips."
 		},
 		"embed_alreadyposted": {
 			"_comment": "Clip is already posted!",
