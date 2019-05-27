@@ -137,19 +137,19 @@
 		},
 		"embed_keyalreadyactive": {
 			"_comment": "Key is already activated.",
-			"description": "**${user}** this key is already been activated. If you believe this is a mistake, contact your server administrator."
+			"description": "**${user}** deze sleutel is al gebruikt. Als je denkt dat dit fout is, neem dan contact op met uw server administrator."
 		},
 		"embed_keydontexist": {
 			"_comment": "key dont exist.",
-			"description": "**${user}** this key dont exist. If you believe this is a mistake, contact your server administrator."
+			"description": "**${user}** deze sleutel bestaat niet. Als je denkt dat dit fout is, neem dan contact op met uw server administrator."
 		},
 		"embed_already_access": {
 			"_comment": "User has already access to the server dashboard.",
-			"description": "**${user}** you are already registered in this guild!"
+			"description": "**${user}** je bent al geregistreerd in deze server!"
 		},
 		"embed_wrong_guild": {
 			"_comment": "This key is not from this guild.",
-			"description": "**${user}** please activate this key in the selected guild!"
+			"description": "**${user}** gebruik deze sleutel in de geselecteerde server!"
 		},
 		"embed_success": {
 			"_comment": "This key is correct.",
