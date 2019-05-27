@@ -164,17 +164,17 @@
 		"_comment": "Translation for message.js",
 		"embed_userclipsonly": {
 			"_comment": "Only twitch clip(s) from a specific twitch streamer.",
-			"description": "**${user}** Only the clips from Twitch streamer **${twitchuser}** can be placed here!"
+			"description": "Alleen de clips van **${twitchuser}** kan hier worden geplaatst!"
 		},
 		"embed_canttalk": {
 			"_comment": "User cant talk in chanel",
-			"description": "**${user}** unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
+			"description": "**${user}** helaas mag je hier niet praten. Dit tekstkanaal <#${channel}> is alleen voor Twitch clips.",
 			"field_1": "Example",
 			"field_2": "Your message was"
 		},
 		"embed_cantfindclip": {
 			"_comment": "Clip dont exist",
-			"description": "**${user}** something went wrong. I cannot find that clip.",
+			"description": "**${user}** er is iets fout gegaan. Ik kan de clip niet vinden.",
 			"field_1": "**Your message was**"
 		},
 		"embed_noattachments": {
@@ -183,9 +183,9 @@
 		},
 		"embed_alreadyposted": {
 			"_comment": "Clip is already posted!",
-			"description": "**${user}** Something went wrong. This clip has already been posted."
+			"description": "**${user}** er is iets fout gegaan. Deze clip is al eerder geplaatst."
 		},
-		"success": "Submitted by",
-		"updatechannel": "There are currently ${count} ${clips} submitted! | You can only post 1 clip each message!"
+		"success": "Geplaatst door",
+		"updatechannel": "Er zijn momenteel ${count} ${clips} ingestuurd! | Je kunt maar 1 clip per bericht plaatsen!"
 	}
 }
