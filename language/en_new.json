@@ -105,6 +105,7 @@
 		"command_about": "Get to know who I am.",
 		"command_status": "Get information about the status of Clip Manager.",
 		"command_translator": "See who translated this language.",
+		"command_lang": "Change the language of the bot.",
 
 		"field_2": "**Configuration Commands**",
 		"command_setup": "Setup Clip Manager.",
