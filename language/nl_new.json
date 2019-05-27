@@ -105,7 +105,8 @@
 		"command_about": "Leer te weten wie ik ben.",
 		"command_status": "Informatie over de status van Clip Manager.",
 		"command_translator": "Kijk wie deze taal vertaald heeft.",
-
+		"command_lang": "Verander de taal van de bot.",
+		
 		"field_2": "**Configuratie commands**",
 		"command_setup": "Installeer Clip Manager.",
 		"command_key": "Activeer dashboard toegang.",
