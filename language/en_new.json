@@ -105,6 +105,7 @@
 		"command_about": "Get to know who I am.",
 		"command_status": "Get information about the status of Clip Manager.",
 		"command_translator": "See who translated this language.",
+		"command_lang": "Change the language of the bot.",
 
 		"field_2": "**Configuration Commands**",
 		"command_setup": "Setup Clip Manager.",
@@ -187,5 +188,21 @@
 		},
 		"success": "Submitted by",
 		"updatechannel": "There are currently ${count} ${clips} submitted! | You can only post 1 clip each message!"
+	},
+	
+	
+	"lang": {
+		"_comment": "Translation for language.js",
+		"embed_start": {
+			"_comment": "Start of settings language",
+			"title": "**Language settings**",
+			"description": "Below you can see the available languages for Clip Manager. Press a flag to select the language you want to use.",
+			"field_1": "**Available languages**",
+			"field_1_description": "Close this message",
+			"field_2": "**We are looking for you**",
+			"field_2_description": "Can you translate English into your native language or a language you understand? Yeah? Awsome! We're looking for translators. Do you want to be a translator? Join Discord ${discord}"
+		},
+		"already_this_language": "**${user}** the bot language was already set to English. Action **language settings** has been undone.",
+		"out_of_time": "**${user}** you have not responded within 30 seconds. Action **language settings** has been undone."
 	}
 }
