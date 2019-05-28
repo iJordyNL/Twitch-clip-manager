@@ -15,12 +15,12 @@
 	"main": {
 		"invalid_permission_title": "**Ongeldige rechten**",
 		"invalid_permission_bot": "**${user}** Ik heb de **${permission}** rechten nodig!",
-		"invalid_permission_user": "**${user}** U heeft de **${permission}** rechten nodig!"
+		"invalid_permission_user": "**${user}** Je hebt de **${permission}** rechten nodig!"
 	},
 
 
 	"setup": {
-		"_comment": "Translation for setup.js",
+		"_comment": "Vertaling voor setup.js",
 		"embed_start": {
 			"_comment": "Start of bot set up",
 			"title": "Leuk dat u Clip Manager wilt gebruiken!",
@@ -29,66 +29,66 @@
 			"field_2": "Stop met instellen"
 		},
 		"embed_enterchannel": {
-			"_comment": "Start of bot set up if anwser is yes",
-			"description": "**${user}** Please tag now a valid #channel to set-up the bot.\n Type ``Cancel`` to stop the set up."
+			"_comment": "Start van de bot set up als het antwoord ja is",
+			"description": "**${user}** Tag nu een geldige #channel om de bot in te stellen.\n Type ``Cancel`` om de setup te beëindigen."
 		},
 		"embed_alreadysetup": {
-			"_comment": "Bot is already set-up",
-			"title": "**Something went wrong.**",
-			"description": "**${user}** Clip Manager is already active and set-up. If you want to reset the bot use the command **${prefix}reset**"
+			"_comment": "Bot is al ingesteld",
+			"title": "**Er is iets fout gegaan.**",
+			"description": "**${user}** Clip Manager is al actief en ingesteld. Als je de bot wilt resetten gebruik de command **${prefix}reset**"
 		},
 		"embed_wrongformat": {
-			"_comment": "Wronf format of channel",
-			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
+			"_comment": "Verkeerde channel format",
+			"description": "**${user}** Dit kanaal bestaat niet. Tag een #channel of voer een channel-id in!"
 		},
 		"embed_channelnotexist": {
-			"_comment": "Channel does not exist",
-			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
+			"_comment": "Kanaal bestaat niet",
+			"description": "**${user}** Dit kanaal bestaat niet. Tag een #channel of voer een channel-id in!"
 		},
 		"embed_success": {
-			"_comment": "Bot has been set up successfully",
-			"title": "Clip Manager has been set up successfully",
-			"description": "Clip Manager has been set up successfully. Below you can see the Dashboard url and which channel has been set.",
-			"field_1": "This channel is set",
+			"_comment": "Bot is succesvol ingesteld",
+			"title": "Clip Manager is succesvol ingesteld",
+			"description": "Clip Manager is zojuist succesvol ingesteld. Hieronder ziet u welk kanaal is ingesteld en de URL van het webpaneel.",
+			"field_1": "Dit kanaal is ingesteld",
 			"field_2": "Dashboard",
 			"field_3": "Support"
 		},
-		"clip_titlename": "There are currently 0 clips submitted! | You can only post 1 clip each message!",
-		"cancel_success": "${user} you have successfully cancelled the set up.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"clip_titlename": "Er zijn 0 clips ingezonden! | Je kan maar 1 clip inzenden per bericht!",
+		"cancel_success": "${user} je hebt zojuist de setup succesvol geannuleerd.",
+		"out_of_time": "Je hebt niet binnen 30 seconden gereageerd. Actie is ongedaan gemaakt."
 	},
 
 
 	"reset": {
-		"_comment": "Translation for reset.js",
+		"_comment": "Vertaling voor reset.js",
 		"embed_start": {
-			"_comment": "Command activated",
-			"title": "**Are you sure you want to reset the bot?**",
-			"description": "**${user}** to Continue reset react with ✅, nope? React with ❎."
+			"_comment": "Command geactiveerd",
+			"title": "**Weet je zeker dat je de bot wilt resetten?**",
+			"description": "**${user}** om door te gaan, reageer met ✅, niet? reageer met ❎."
 		},
 		"embed_success": {
-			"_comment": "Bot has been successfully resetted",
+			"_comment": "Bot is succesvol gereset",
 			"description": "**${user}** You successfully reset the bot. If you want to use Clip Manager again, type **${prefix}setup**"
 		},
 		"embed_notactive": {
-			"_comment": "Bot has been successfully resetted",
-			"title": "**Something went wrong.**",
-			"description": "**${user}** Clip Manager has not been set up yet. If you want to set up the bot use the command **${prefix}setup**"
+			"_comment": "Bot is nog niet ingesteld",
+			"title": "**Er is iets mis gegaan.**",
+			"description": "**${user}** Clip Manager is nog niet ingesteld. Als je de bot wilt instellen gebruik de command **${prefix}setup**"
 		},
 		"reset": {
-			"setAuthor": "Clip Manager has been successfully set up",
-			"setDescription": "Clip Manager has been successfully set up. Below you can see the Dashboard url and which channel has been set.",
+			"setAuthor": "Clip Manager is succesvol ingesteld",
+			"setDescription": "Clip Manager is zojuist succesvol ingesteld. Hieronder ziet u welk kanaal is ingesteld en de URL van het webpaneel.",
 			"addField_1": "Channel set",
 			"addField_2": "Dashboard",
 			"addField_3": "Discord"
 		},
-		"cancel_success": "${user} you have successfully cancelled the reset.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"cancel_success": "${user} je hebt de reset succesvol geannuleerd.",
+		"out_of_time": "Je hebt niet binnen 30 seconden geantwoord. Actie is ongedaan gemaakt."
 	},
 
-	
+
 	"about": {
-			"_comment": "Translation for about.js",
+			"_comment": "Vertaling voor about.js",
 			"title": "**Wie ben ik?**",
 			"description": "Ik ben Clip Manager, Ik help mensen die compilaties maken van Twitch clips. Voor bijvoorbeeld om het op YouTube te plaatsen. Bekijk al mijn command's door het sturen van ${prefix}help",
 			"field_1_title": "**Mijn website**",
@@ -99,7 +99,7 @@
 
 
 	"help": {
-		"_comment": "Translation for help.js",
+		"_comment": "Vertaling voor help.js",
 		"field_1": "**Algemene commands**",
 		"command_help": "Weergeeft al mijn commands.",
 		"command_about": "Leer te weten wie ik ben.",
@@ -116,7 +116,7 @@
 
 
 	"status": {
-		"_comment": "Translation for status.js",
+		"_comment": "Vertaling voor status.js",
 		"embed_statistics": {
 			"title":"**Statistieken**",
 			"description": "Ik zit in **${count_servers}** servers\n Er zijn **${count_setup}** servers succesvol geïnstalleerd.\n Er zijn totaal **${count_totalguildclips}** clips verstuurt."
@@ -125,7 +125,7 @@
 
 
 	"key": {
-		"_comment": "Translation for key.js",
+		"_comment": "Vertaling voor key.js",
 		"embed_start": {
 			"_comment": "Command activated",
 			"title": "**Heb je een sleutel?**",
