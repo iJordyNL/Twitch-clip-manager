@@ -3,7 +3,7 @@
 		"github": "GodlyFox & iJordyNL",
 		"discord": "GodlyFox.#3462 & Jordy.#0001",
 		"language": "Nederlands",
-		"last_update": "25 May 2019 20:00",
+		"last_update": "28 May 2019 17:05",
 
 		"field_1": "Vertalers",
 		"field_2": "Github gebruikersnaam",
@@ -106,7 +106,7 @@
 		"command_status": "Informatie over de status van Clip Manager.",
 		"command_translator": "Kijk wie deze taal vertaald heeft.",
 		"command_lang": "Verander de taal van de bot.",
-		
+
 		"field_2": "**Configuratie commands**",
 		"command_setup": "Installeer Clip Manager.",
 		"command_key": "Activeer dashboard toegang.",
@@ -189,8 +189,8 @@
 		"success": "Geplaatst door",
 		"updatechannel": "Er zijn momenteel ${count} ${clips} ingestuurd! | Je kunt maar 1 clip per bericht plaatsen!"
 	},
-	
-	
+
+
 	"lang": {
 		"_comment": "Translation for language.js",
 		"embed_start": {
