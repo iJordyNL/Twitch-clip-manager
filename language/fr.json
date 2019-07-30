@@ -2,8 +2,8 @@
 	"translator": {
 		"github": "GodlyFox & iJordyNL",
 		"discord": "GodlyFox.#3462 & Jordy.#0001",
-		"language": "English",
-		"last_update": "9 May 2019 19:33",
+		"language": "French",
+		"last_update": "30 July 2019 11:25",
 
 		"addfield_1": "Translators",
 		"addfield_2": "Github usernames",
@@ -13,59 +13,59 @@
 	"main": {
 		"arg_channelid": "<channel-id>",
 		"arg_key": "<key>",
-		"invalid_permission_bot": "Invalid permissions. I need the **${permission}** permission!",
-		"invalid_permission_user": "Invalid permissions. You don't have the **${permission}** permission!"
+		"invalid_permission_bot": "Permission invalide. J'ai besoin de la **${permission}** permission!",
+		"invalid_permission_user": "Permission invalide. Vous n'avez pas la **${permission}** permission!"
 	},
 	"setup": {
 		"args": "<channel-id or #channel-tag>",
 		"error": {
-			"no_args": "Please provide some arguments! **${prefix}setup ${args}**",
-			"already_active": "Clip Manager is already active and set up",
-			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be re-set with **${prefix}setup ${args}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
-			"channelnotexist": "This channel does not exist.",
-			"wrongchannelformat": "This channel does not exist. Please tag a channel-name or enter a channel-id!"
+			"no_args": "S'il vous plaît veuillez fournir des arguments! **${prefix}setup ${args}**",
+			"already_active": "Clip Manager est déjà actif et configuré",
+			"reset": "Êtes-vous sûr de vouloir réinitialiser le bot? **ATTENTION** Tous les accès seront supprimés et le bot doit être réinitialisé avec **${prefix}setup ${args}**!\n Veuillez répondre dans les **10** secondes avec **Confirm-reset**. Sinon le tout sera annulé automatiquement.",
+			"channelnotexist": "Ce salon n'existe pas.",
+			"wrongchannelformat": "Ce salon n'existe pas. Veuillez identifier un salon ou un salon-id!"
 		},
-		"setup_success": "You have removed all access. If you want to use Clip Manager again, type **${prefix}setup ${args}**",
+		"setup_success": "Vous avez retiré tout les accès. Si vous souhaitez utiliser à nouveau Clip Manager, inscriver **${prefix}setup ${args}**",
 
 		"reset": {
-			"setAuthor": "Clip Manager has been successfully set up",
-			"setDescription": "Clip Manager has been successfully set up. Below you can see the webpanel url and which channel has been set.",
-			"addField_1": "Channel set",
+			"setAuthor": "Clip Manager a été configuré avec succès",
+			"setDescription": "Clip Manager a été configuré avec succès. Ci-dessous, vous pouvez voir l'URL Webpanel et le canal défini.",
+			"addField_1": "Salon configuré",
 			"addField_2": "Webpanel",
 			"addField_3": "Discord"
 		}
 	},
 	"help": {
-		"addField_1": "General Commands",
-		"command_help": "Displays all of my commands",
+		"addField_1": "Commande générale",
+		"command_help": "Afficher toutes mes commandes",
 
-		"addField_2": "Configuration Commands",
-		"command_setup": "Setup Clip Manager",
-		"command_key": "Activate dashboard access",
+		"addField_2": "Commandes de configuration",
+		"command_setup": "Configuration de Clip Manager",
+		"command_key": "Activer l'accès au tableau de bord",
 
-		"addField_3": "Reset command",
-		"command_setup_reset": "Reset all access including the clip channel id."
+		"addField_3": "Réinitialiser les commandes",
+		"command_setup_reset": "Réinitialiser tous les accès, y compris l'identifiant du salon clip."
 	},
 	"key": {
 		"error": {
-			"no_key": "Please provide a key!",
-			"already_registered": "You are already registered in this guild!",
-			"wrong_guild": "Please activate this key in the selected guild!",
-			"key_not_exist": "This key is invalid or has already been activated. If you believe this is a mistake, contact your server administrator."
+			"no_key": "S'il vous plaît fournir une clé!",
+			"already_registered": "Vous êtes déjà inscrit dans cette guilde!",
+			"wrong_guild": "Veuillez activer cette clé dans la guilde sélectionnée!",
+			"key_not_exist": "Cette clé n'est pas valide ou a déjà été activée. Si vous pensez que c'est une erreur, contactez votre administrateur de serveur."
 		},
-		"success": "Your key `${key}` has been successfully activated! You can now log in to https://dashboard.clipmanager.net/. Questions? https://clipmanager.net/discord"
+		"success": "Votre clé `${key}` a été activé avec succès! Vous pouvez maintenant vous connecter à https://dashboard.clipmanager.net/. Questions? https://clipmanager.net/discord"
 	},
 	"client_message": {
 		"error": {
-			"clipsonly": "Only the clips from **${twitchuser}** can be placed here!",
-			"cantfindclip": "Something went wrong. I cannot find that clip.",
-			"alreadyposted": "Something went wrong. This clip has already been posted.",
-			"cantpostfiles": "Unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.",
-			"canttalk": "Unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
-			"wrongurl": "Something went wrong with your link. Does your link match the example?",
+			"clipsonly": "Seuls les clips de **${twitchuser}** peut être placé ici!",
+			"cantfindclip": "Quelque chose s'est mal passé. Je ne trouve pas ce clip.",
+			"alreadyposted": "Quelque chose s'est mal passé. Ce clip a déjà été publié.",
+			"cantpostfiles": "Malheureusement, vous ne pouvez pas publier de pièces jointes ici. Ce salon <#${channel}> est seulement pour les clips Twitch.",
+			"canttalk": "Malheureusement, vous n'êtes pas autorisé à parler ici. Ce salon <#${channel}> est seulement pour les clips Twitch.",
+			"wrongurl": "Quelque chose s'est mal passé avec le lien. Es-ce que le lien correspond à l'exemple?",
 			"wrongurl_addfield_example": "Example",
-			"wrongurl_addfield_message": "Your message was"
+			"wrongurl_addfield_message": "Votre message était"
 		},
-		"updatechannel": "There are currently ${result.length} ${getclipname} submitted! | You can only post 1 clip per message!"
+		"updatechannel": "Il y a actuellement ${result.length} ${getclipname} soumis! | Vous ne pouvez publier qu'un clip par message!"
 	}
 }
