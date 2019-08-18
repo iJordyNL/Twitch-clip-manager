@@ -1,0 +1,71 @@
+{
+	"translator": {
+		"github": "GodlyFox & iJordyNL",
+		"discord": "GodlyFox.#3462 & Jordy.#0001",
+		"language": "English",
+		"last_update": "18 May 2019 16:20",
+
+		"addfield_1": "Translators",
+		"addfield_2": "Github usernames",
+		"addfield_3": "Last update",
+		"addfield_4": "Language"
+	},
+	"main": {
+		"arg_channelid": "<channel-id>",
+		"arg_key": "<key>",
+		"invalid_permission_bot": "Invalid permissions. I need the **${permission}** permission!",
+		"invalid_permission_user": "Invalid permissions. You don't have the **${permission}** permission!"
+	},
+	"setup": {
+		"args": "<channel-id or #channel-tag>",
+		"error": {
+			"no_args": "Please provide some arguments! **${prefix}setup ${args}**",
+			"already_active": "Clip Manager is already active and set up",
+			"reset": "Are you sure you want to reset the bot? **WARNING** All access will be removed and the bot must be re-set with **${prefix}setup ${args}**!\n Reply within **10** Seconds with **Confirm-reset**. Otherwise this will be undone automatically.",
+			"channelnotexist": "This channel does not exist.",
+			"wrongchannelformat": "This channel does not exist. Please tag a channel-name or enter a channel-id!"
+		},
+		"setup_success": "You have removed all access. If you want to use Clip Manager again, type **${prefix}setup ${args}**",
+
+		"reset": {
+			"setAuthor": "Clip Manager has been successfully set up",
+			"setDescription": "Clip Manager has been successfully set up. Below you can see the webpanel url and which channel has been set.",
+			"addField_1": "Channel set",
+			"addField_2": "Webpanel",
+			"addField_3": "Discord"
+		}
+	},
+	"help": {
+		"addField_1": "General Commands",
+		"command_help": "Displays all of my commands",
+
+		"addField_2": "Configuration Commands",
+		"command_setup": "Setup Clip Manager",
+		"command_key": "Activate dashboard access",
+
+		"addField_3": "Reset command",
+		"command_setup_reset": "Reset all access including the clip channel id."
+	},
+	"key": {
+		"error": {
+			"no_key": "Please provide a key!",
+			"already_registered": "You are already registered in this guild!",
+			"wrong_guild": "Please activate this key in the selected guild!",
+			"key_not_exist": "This key is invalid or has already been activated. If you believe this is a mistake, contact your server administrator."
+		},
+		"success": "Your key `${key}` has been successfully activated! You can now log in to https://dashboard.clipmanager.net/. Questions? https://clipmanager.net/discord"
+	},
+	"client_message": {
+		"error": {
+			"clipsonly": "Only the clips from **${twitchuser}** can be placed here!",
+			"cantfindclip": "Something went wrong. I cannot find that clip.",
+			"alreadyposted": "Something went wrong. This clip has already been posted.",
+			"cantpostfiles": "Unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.",
+			"canttalk": "Unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
+			"wrongurl": "Something went wrong regarding your link. Does your link match the example?",
+			"wrongurl_addfield_example": "Example",
+			"wrongurl_addfield_message": "Your message was"
+		},
+		"updatechannel": "There are currently ${result.length} ${getclipname} submitted! | You can only post 1 clip per message!"
+	}
+}
