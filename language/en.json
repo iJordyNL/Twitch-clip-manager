@@ -38,7 +38,7 @@
 			"description": "**${user}** Clip Manager is already active and set-up. If you want to reset the bot use the command **${prefix}reset**"
 		},
 		"embed_wrongformat": {
-			"_comment": "Wronf format of channel",
+			"_comment": "Wrong format of channel",
 			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
 		},
 		"embed_channelnotexist": {
