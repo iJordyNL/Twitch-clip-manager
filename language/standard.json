@@ -1,0 +1,246 @@
+{
+	"translator": {
+		"github": "Your github username",
+		"discord": "Your discord here",
+		"language": "File language here",
+		"last_update": "9 May 2019 19:33",
+
+		"field_1": "Translators",
+		"field_2": "Github usernames",
+		"field_3": "Last update",
+		"field_4": "Language"
+	},
+
+
+	"main": {
+		"invalid_permission_title": "**Invalid permission**",
+		"invalid_permission_bot": "**${user}** I need the **${permission}** permission!",
+		"invalid_permission_user": "**${user}** You don't have the **${permission}** permission!"
+	},
+
+
+	"setup": {
+		"_comment": "Translation for setup.js",
+		"embed_start": {
+			"_comment": "Start of bot set up",
+			"title": "Nice that you want to use Clip Manager!",
+			"description": "If you want to continue, install ${bot}.",
+			"field_1": "Continue with set-up",
+			"field_2": "Stop with set-up"
+		},
+		"embed_enterchannel": {
+			"_comment": "Start of bot set up if anwser is yes",
+			"description": "**${user}** Please tag now a valid #channel to set-up the bot.\n Type ``Cancel`` to stop the set up."
+		},
+		"embed_alreadysetup": {
+			"_comment": "Bot is already set-up",
+			"title": "**Something went wrong.**",
+			"description": "**${user}** Clip Manager is already active and set-up. If you want to reset the bot use the command **${prefix}reset**"
+		},
+		"embed_wrongformat": {
+			"_comment": "Wrong format of channel",
+			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
+		},
+		"embed_channelnotexist": {
+			"_comment": "Channel does not exist",
+			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
+		},
+		"embed_success": {
+			"_comment": "Bot has been set up successfully",
+			"title": "Clip Manager has been set up successfully",
+			"description": "Clip Manager has been set up successfully. Below you can see the Dashboard url and which channel has been set.",
+			"field_1": "This channel is set",
+			"field_2": "Dashboard",
+			"field_3": "Support"
+		},
+		"clip_titlename": "There are currently 0 clips submitted! | You can only post 1 clip each message!",
+		"cancel_success": "${user} you have successfully cancelled the set up.",
+		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+	},
+
+
+	"reset": {
+		"_comment": "Translation for reset.js",
+		"embed_start": {
+			"_comment": "Command activated",
+			"title": "**Are you sure you want to reset the bot?**",
+			"description": "**${user}** to Continue reset react with ✅, nope? React with ❎."
+		},
+		"embed_success": {
+			"_comment": "Bot has been successfully resetted",
+			"description": "**${user}** You successfully reset the bot. If you want to use Clip Manager again, type **${prefix}setup**"
+		},
+		"embed_notactive": {
+			"_comment": "Bot has been successfully resetted",
+			"title": "**Something went wrong.**",
+			"description": "**${user}** Clip Manager has not been set up yet. If you want to set up the bot use the command **${prefix}setup**"
+		},
+		"reset": {
+			"setAuthor": "Clip Manager has been successfully set up",
+			"setDescription": "Clip Manager has been successfully set up. Below you can see the Dashboard url and which channel has been set.",
+			"addField_1": "Channel set",
+			"addField_2": "Dashboard",
+			"addField_3": "Discord"
+		},
+		"cancel_success": "${user} you have successfully cancelled the reset.",
+		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+	},
+
+
+	"about": {
+			"_comment": "Translation for about.js",
+			"title": "**Who am I?**",
+			"description": "I am Clip Manager, I help people who make compilations of Twitch clips. For example, YouTube. See all my commands by sending ${prefix}help",
+			"field_1_title": "**My Website**",
+			"field_1_description": "You can find me at ${website}",
+			"field_2_title": "**Premium**",
+			"field_2_description": "To support my development I offer some features that are only available to premium users. Clip Manager Premium is available on ${website} at a low cost."
+	},
+
+
+	"help": {
+		"_comment": "Translation for help.js",
+		"field_1": "**General Commands**",
+		"command_help": "Displays all of my commands.",
+		"command_about": "Get to know who I am.",
+		"command_status": "Get information about the status of Clip Manager.",
+		"command_translator": "See who translated this language.",
+		"command_lang": "Change the language of the bot.",
+
+		"field_2": "**Configuration Commands**",
+		"command_setup": "Setup Clip Manager.",
+		"command_grant": "Activates dashboard access for a user.",
+
+		"field_3": "**Reset command**",
+		"command_reset": "Resets everything that has been set up. Also access to the dashboard and all clips that have been sent!"
+	},
+
+
+	"status": {
+		"_comment": "Translation for status.js",
+		"embed_statistics": {
+			"title":"**Statistics**",
+			"description": "I am in **${count_servers}** servers\n There are **${count_setup}** servers successfully set up.\n There are **${count_totalguildclips}** total clips sended."
+		}
+	},
+
+
+	"key": {
+		"_comment": "Translation for key.js",
+		"embed_start": {
+			"_comment": "Command activated",
+			"title": "**Do you have a access key?**",
+			"description": "**${user}** did you get a key from someone? Yes ✅ | No ❎"
+		},
+		"embed_enterkey": {
+			"_comment": "COMMENT?!??",
+			"description": "**${user}** please type now a valid access key in order to gain access to.\n Type ``Cancel`` to stop the access key command."
+		},
+		"embed_keyalreadyactive": {
+			"_comment": "Key is already activated.",
+			"description": "**${user}** this key is already been activated. If you believe this is a mistake, contact your server administrator."
+		},
+		"embed_keydontexist": {
+			"_comment": "key dont exist.",
+			"description": "**${user}** this key dont exist. If you believe this is a mistake, contact your server administrator."
+		},
+		"embed_already_access": {
+			"_comment": "User has already access to the server dashboard.",
+			"description": "**${user}** you are already registered in this guild!"
+		},
+		"embed_wrong_guild": {
+			"_comment": "This key is not from this guild.",
+			"description": "**${user}** please activate this key in the selected guild!"
+		},
+		"embed_success": {
+			"_comment": "This key is correct.",
+			"description": "**${user}** Your key `${key}` has been successfully activated! You can now log in to ${dashboard}. Questions? ${discord}"
+		},
+		"cancel_success": "**${user}** you have successfully cancelled the access key command.",
+		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+	},
+
+
+	"clips": {
+		"_comment": "Translation for message.js",
+		"embed_userclipsonly": {
+			"_comment": "Only twitch clip(s) from a specific twitch streamer.",
+			"description": "**${user}** Only the clips from Twitch streamer **${twitchuser}** can be placed here!"
+		},
+		"embed_canttalk": {
+			"_comment": "User cant talk in chanel",
+			"description": "**${user}** unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
+			"field_1": "Example",
+			"field_2": "Your message was"
+		},
+		"embed_cantfindclip": {
+			"_comment": "Clip dont exist",
+			"description": "**${user}** something went wrong. I cannot find that clip.",
+			"field_1": "**Your message was**"
+		},
+		"embed_noattachments": {
+			"_comment": "Cant post attachments",
+			"description": "**${user}** unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.."
+		},
+		"embed_alreadyposted": {
+			"_comment": "Clip is already posted!",
+			"description": "**${user}** Something went wrong. This clip has already been posted."
+		},
+		"success": "Submitted by",
+		"updatechannel": "There are currently ${count} ${clips} submitted! | You can only post 1 clip each message!"
+	},
+
+
+	"lang": {
+		"_comment": "Translation for language.js",
+		"embed_start": {
+			"_comment": "Start of settings language",
+			"title": "**Language settings**",
+			"description": "Below you can see the available languages for Clip Manager. Press a flag to select the language you want to use.",
+			"field_1": "**Available languages**",
+			"field_1_description": "Close this message",
+			"field_2": "**We are looking for you**",
+			"field_2_description": "Can you translate English into your native language or a language you understand? Yeah? Awsome! We're looking for translators. Do you want to be a translator? Join Discord ${discord}"
+		},
+		"already_this_language": "**${user}** the bot language was already set to English. Action **language settings** has been undone.",
+		"out_of_time": "**${user}** you have not responded within 30 seconds. Action **language settings** has been undone."
+	},
+	"grant": {
+		"_comment": "Translation for grant.js",
+		"embed_start": {
+			"_comment": "Tag a user",
+			"title": "**Give a user Dashboard access**",
+			"description": "**${user}** Please select the role that you want to give the user.",
+			"field_1": "**Available roles**",
+			"field_2": "**User features**",
+			"field_2_description": "➟ View clips\n➟ Download clips",
+			"field_3": "**Admin features**",
+			"field_3_description": "➟ Give users access.\n➟ Delete clips\n➟ Edit bot settings\n"
+		},
+		"embed_tag": {
+			"_comment": "Tag a user",
+			"description": "**${user}** please tag now the user to give his access to the dashboard.",
+			"field_1": "Selected role"
+		},
+		"embed_invalid_permissions": {
+			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
+			"description": "**${user}** you don't have enough permissions to perform this action."
+		},
+		"custom_message": {
+			"_comment": "Custom messages instead of embeds",
+			"tag_user": "**${user}** Please tag a valid member.",
+			"user_bot": "**${user}** You cant tag a bot. So you can't give him access to the dashboard.",
+			"already_access": "**${user}** This user already has access to the dashboard. Do you want to change his role? Remove his old role in the dashboard.",
+			"no_access_command": "**${user}** You don't have access to this command. The sever adminstrator must give you access first.",
+			"max_access": "**${user}** You have given the maximum number of access, you have created of the ${min}/${max}."
+		},
+		"embed_success": {
+			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
+			"description": "Your entry to the dashboard has been successful. **${tag_user}** can now log in to ${dashboard}. Questions? ${discord}"
+		},
+		"role_admin": "Admin",
+		"role_user": "User",
+		"cancel_success": "**${user}** you have successfully cancelled the grant command.",
+		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+	}
+}
