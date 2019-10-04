@@ -1,61 +1,61 @@
 {
 	"translator": {
-		"github": "Your github username",
-		"discord": "Your discord here",
-		"language": "File language here",
-		"last_update": "9 May 2019 19:33",
+		"github": "Kaktus2225",
+		"discord": "Kaktus_2225#5044",
+		"language": "Polski",
+		"last_update": "4 Paź 2019 16:53",
 
-		"field_1": "Translators",
-		"field_2": "Github usernames",
-		"field_3": "Last update",
-		"field_4": "Language"
+		"field_1": "Tłumacz",
+		"field_2": "Github",
+		"field_3": "Ostatnia aktualizacja",
+		"field_4": "Język"
 	},
 
 
 	"main": {
-		"invalid_permission_title": "**Invalid permission**",
-		"invalid_permission_bot": "**${user}** I need the **${permission}** permission!",
-		"invalid_permission_user": "**${user}** You don't have the **${permission}** permission!"
+		"invalid_permission_title": "**Brak uprawnień**",
+		"invalid_permission_bot": "**${user}** Potrzebuje uprawnień: **${permission}**!",
+		"invalid_permission_user": "**${user}** Nie posiadasz uprawnień: **${permission}**!"
 	},
 
 
 	"setup": {
 		"_comment": "Translation for setup.js",
 		"embed_start": {
-			"_comment": "Start of bot set up",
-			"title": "Nice that you want to use Clip Manager!",
-			"description": "If you want to continue, install ${bot}.",
-			"field_1": "Continue with set-up",
-			"field_2": "Stop with set-up"
+			"_comment": "Rozpocznij konfigurację bota",
+			"title": "Fajnie, że chcesz korzystać z Clip Managera!",
+			"description": "Chcesz kontynuować konfigurację ${bot}?",
+			"field_1": "Tak, rozpocznij konfugurację",
+			"field_2": "Nie, anuluj"
 		},
 		"embed_enterchannel": {
-			"_comment": "Start of bot set up if anwser is yes",
-			"description": "**${user}** Please tag now a valid #channel to set-up the bot.\n Type ``Cancel`` to stop the set up."
+			"_comment": "Konfiguracja się rozpocznie kiedy tak",
+			"description": "**${user}** Proszę oznacz teraz #kanał lub podaj ID kanału na którym ma pracować bot.\n Wpisz ``Cancel`` aby anulować konfiguracje."
 		},
 		"embed_alreadysetup": {
-			"_comment": "Bot is already set-up",
-			"title": "**Something went wrong.**",
-			"description": "**${user}** Clip Manager is already active and set-up. If you want to reset the bot use the command **${prefix}reset**"
+			"_comment": "Bot jest już skonfigurowany",
+			"title": "**Coś poszło nie tak.**",
+			"description": "**${user}** Clip Manager jest aktywny i skonfigurować. Jeżeli chcesz zresetować konfigurację to użyj komendy: **${prefix}reset**"
 		},
 		"embed_wrongformat": {
-			"_comment": "Wrong format of channel",
-			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
+			"_comment": "Zły format kanału",
+			"description": "**${user}** Ten kanał jest nieosiągalny. Proszę oznacz #kanał lub podaj ID kanału!"
 		},
 		"embed_channelnotexist": {
-			"_comment": "Channel does not exist",
-			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
+			"_comment": "Kanał nie istnieje",
+			"description": "**${user}** Ten kanał nie istnieje. Proszę oznacz #kanał lub podaj ID kanału!"
 		},
 		"embed_success": {
-			"_comment": "Bot has been set up successfully",
-			"title": "Clip Manager has been set up successfully",
-			"description": "Clip Manager has been set up successfully. Below you can see the Dashboard url and which channel has been set.",
-			"field_1": "This channel is set",
-			"field_2": "Dashboard",
-			"field_3": "Support"
+			"_comment": "Bot został skonfigurowany pomyślnie",
+			"title": "Clip Manager został skonfigurowany pomyślnie",
+			"description": "Clip Manager został skonfigurowany pomyślnie. Poniżej możesz zobaczyć adres Dashboard oraz kanał który został ustawiony.",
+			"field_1": "Skonfigurowany kanał:",
+			"field_2": "Dashboard:",
+			"field_3": "Pomoc:"
 		},
-		"clip_titlename": "There are currently 0 clips submitted! | You can only post 1 clip each message!",
-		"cancel_success": "${user} you have successfully cancelled the set up.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"clip_titlename": "Obecnie przesłano 0 klipów! | Możesz opublikować maksymalnie 1 klip na 1 wiadomość!",
+		"cancel_success": "${user} pomyślnie przerwano konfiguracje.",
+		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
 	},
 
 
@@ -63,64 +63,64 @@
 		"_comment": "Translation for reset.js",
 		"embed_start": {
 			"_comment": "Command activated",
-			"title": "**Are you sure you want to reset the bot?**",
-			"description": "**${user}** to Continue reset react with ✅, nope? React with ❎."
+			"title": "**Jesteś pewien, że chcesz kontynuować usunięcie konfiguracji?**",
+			"description": "**${user}** aby kontynuować usunięcie konfiguracji kliknij: ✅, jeżeli chcesz anulować to kliknij: ❎."
 		},
 		"embed_success": {
-			"_comment": "Bot has been successfully resetted",
-			"description": "**${user}** You successfully reset the bot. If you want to use Clip Manager again, type **${prefix}setup**"
+			"_comment": "Poprawinie dokonano usunięcia konfiguracji bota",
+			"description": "**${user}** udało Ci się pomyślnie usunąć konfiguracje bota. Jeżeli chcesz znów używać Clip Manager, wpisz: **${prefix}setup**"
 		},
 		"embed_notactive": {
-			"_comment": "Bot has been successfully resetted",
-			"title": "**Something went wrong.**",
-			"description": "**${user}** Clip Manager has not been set up yet. If you want to set up the bot use the command **${prefix}setup**"
+			"_comment": "Poprawinie dokonano usunięcia konfiguracji bota",
+			"title": "**Coś poszło nie tak.**",
+			"description": "**${user}** Clip Manager nie jest skonfigurowany poprawnie. Jeżeli chcesz skonfigurować bota wpisz: **${prefix}setup**"
 		},
 		"reset": {
-			"setAuthor": "Clip Manager has been successfully set up",
-			"setDescription": "Clip Manager has been successfully set up. Below you can see the Dashboard url and which channel has been set.",
-			"addField_1": "Channel set",
-			"addField_2": "Dashboard",
-			"addField_3": "Discord"
+			"setAuthor": "Clip Manager został skonfigurowany pomyślnie",
+			"setDescription": "Clip Manager został skonfigurowany pomyślnie. Poniżej możesz zobaczyć adres Dashboard oraz kanał który został ustawiony.",
+			"addField_1": "Skonfigurowany kanał:",
+			"addField_2": "Dashboard:",
+			"addField_3": "Discord:"
 		},
-		"cancel_success": "${user} you have successfully cancelled the reset.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"cancel_success": "${user} pomyślnie anulowano operację.",
+		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
 	},
 
 
 	"about": {
 			"_comment": "Translation for about.js",
-			"title": "**Who am I?**",
-			"description": "I am Clip Manager, I help people who make compilations of Twitch clips. For example, YouTube. See all my commands by sending ${prefix}help",
-			"field_1_title": "**My Website**",
-			"field_1_description": "You can find me at ${website}",
+			"title": "**Kim jestem?**",
+			"description": "Jestem Clip Manager, pomagam ludziom tworzyć kompilacje klipów z twitcha. For example, YouTube. See all my commands by sending ${prefix}help",
+			"field_1_title": "**Moja strona**",
+			"field_1_description": "Możesz mnie znaleśc na stronie: ${website}",
 			"field_2_title": "**Premium**",
-			"field_2_description": "To support my development I offer some features that are only available to premium users. Clip Manager Premium is available on ${website} at a low cost."
+			"field_2_description": "Aby wesprzeć móją prace, oferuję niektóre funkcje, które są dostępne tylko dla użytkowników premium. Clip Manager Premium jest dostępny na ${website} w niskiej cenie."
 	},
 
 
 	"help": {
 		"_comment": "Translation for help.js",
-		"field_1": "**General Commands**",
-		"command_help": "Displays all of my commands.",
-		"command_about": "Get to know who I am.",
-		"command_status": "Get information about the status of Clip Manager.",
-		"command_translator": "See who translated this language.",
-		"command_lang": "Change the language of the bot.",
+		"field_1": "**Komendy główne**",
+		"command_help": "Wyświetl wszystkie komendy.",
+		"command_about": "Poznaj mnie.",
+		"command_status": "Zobacz status moich serwerów.",
+		"command_translator": "Zobacz kto jest autorem polskiego tłumaczenia.",
+		"command_lang": "Zmień mój język.",
 
-		"field_2": "**Configuration Commands**",
-		"command_setup": "Setup Clip Manager.",
-		"command_grant": "Activates dashboard access for a user.",
+		"field_2": "**Komendy konfiguracyjne**",
+		"command_setup": "Usuchom moją konfiguracje.",
+		"command_grant": "Daj dostęp innym użytkownikom do dashboard.",
 
-		"field_3": "**Reset command**",
-		"command_reset": "Resets everything that has been set up. Also access to the dashboard and all clips that have been sent!"
+		"field_3": "**Komenda resetu**",
+		"command_reset": "Zresetuj całą moją konfigurafcje oraz dostęp do dashboard i wszystkie klipów które zostały wysłane!"
 	},
 
 
 	"status": {
 		"_comment": "Translation for status.js",
 		"embed_statistics": {
-			"title":"**Statistics**",
-			"description": "I am in **${count_servers}** servers\n There are **${count_setup}** servers successfully set up.\n There are **${count_totalguildclips}** total clips sended."
+			"title":"**Statystyki**",
+			"description": "Jestem na: **${count_servers}** serwerach\n Na: **${count_setup}** serwerach dokonano poprawnej konfiguracji.\n W sumie wysłano już: **${count_totalguildclips}** klipów."
 		}
 	},
 
@@ -128,59 +128,59 @@
 	"key": {
 		"_comment": "Translation for key.js",
 		"embed_start": {
-			"_comment": "Command activated",
-			"title": "**Do you have a access key?**",
-			"description": "**${user}** did you get a key from someone? Yes ✅ | No ❎"
+			"_comment": "Komenda aktywowana",
+			"title": "**Posiadasz klucz dostępu?**",
+			"description": "**${user}** dostałeś od kogoś klucz? Tak ✅ | Nie ❎"
 		},
 		"embed_enterkey": {
-			"_comment": "COMMENT?!??",
-			"description": "**${user}** please type now a valid access key in order to gain access to.\n Type ``Cancel`` to stop the access key command."
+			"_comment": "KOMENTARZ?!??",
+			"description": "**${user}** prosze wpisz teraz poprawny klucz dostępu.\n Wpisz ``Cancel`` aby anulować operacje."
 		},
 		"embed_keyalreadyactive": {
-			"_comment": "Key is already activated.",
-			"description": "**${user}** this key is already been activated. If you believe this is a mistake, contact your server administrator."
+			"_comment": "Klucz jest już aktywowany.",
+			"description": "**${user}** ten klucz jest już aktywowany. Jeśli uważasz, że to pomyłka, skontaktuj się z administratorem serwera."
 		},
 		"embed_keydontexist": {
-			"_comment": "key dont exist.",
-			"description": "**${user}** this key dont exist. If you believe this is a mistake, contact your server administrator."
+			"_comment": "Ten klucz nie istnieje",
+			"description": "**${user}** ten klucz nie istnieje. Jeśli uważasz, że to pomyłka, skontaktuj się z administratorem serwera."
 		},
 		"embed_already_access": {
-			"_comment": "User has already access to the server dashboard.",
-			"description": "**${user}** you are already registered in this guild!"
+			"_comment": "Użytkownik ma już dostęp do dashboard serwera.",
+			"description": "**${user}** jesteś już zarejestrowany na tym serwerze!"
 		},
 		"embed_wrong_guild": {
-			"_comment": "This key is not from this guild.",
-			"description": "**${user}** please activate this key in the selected guild!"
+			"_comment": "Ten klucz nie pochodzi z tego serwera.",
+			"description": "**${user}** aktywuj ten klucz na wybranym serwerze!"
 		},
 		"embed_success": {
-			"_comment": "This key is correct.",
-			"description": "**${user}** Your key `${key}` has been successfully activated! You can now log in to ${dashboard}. Questions? ${discord}"
+			"_comment": "Ten klucz jest poprawny.",
+			"description": "**${user}** Twój klucz `${key}` został pomyślnie aktywowany! Możesz teraz się logować na: ${dashboard}. Pytania? ${discord}"
 		},
-		"cancel_success": "**${user}** you have successfully cancelled the access key command.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"cancel_success": "**${user}** pomyślnie anulowano poeracje.",
+		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
 	},
 
 
 	"clips": {
 		"_comment": "Translation for message.js",
 		"embed_userclipsonly": {
-			"_comment": "Only twitch clip(s) from a specific twitch streamer.",
-			"description": "**${user}** Only the clips from Twitch streamer **${twitchuser}** can be placed here!"
+			"_comment": "Tylko klipy twitcha od określonego streamera.",
+			"description": "**${user}**Tutaj można umieścić tylko klipy z Twitcha ** $ {twitchuser} **!"
 		},
 		"embed_canttalk": {
-			"_comment": "User cant talk in chanel",
-			"description": "**${user}** unfortunately, you are not allowed to speak in here. This channel <#${channel}> is only for Twitch clips.",
-			"field_1": "Example",
-			"field_2": "Your message was"
+			"_comment": "Urzytkownicy nie mogą rozmawiać na tym kanale",
+			"description": "**${user}** niestety nie możesz tutaj mówić. Ten kanał <#${channel}> jest przeznaczony tylko pod klipy z Twicha.",
+			"field_1": "Przykład:",
+			"field_2": "Twoja wiadomość:"
 		},
 		"embed_cantfindclip": {
-			"_comment": "Clip dont exist",
-			"description": "**${user}** something went wrong. I cannot find that clip.",
-			"field_1": "**Your message was**"
+			"_comment": "Klip nie istnieje",
+			"description": "**${user}** coś poszło nie tak. Nie mogę znaleźć tego klipu.",
+			"field_1": "**Twoja wiadomość:**"
 		},
 		"embed_noattachments": {
-			"_comment": "Cant post attachments",
-			"description": "**${user}** unfortunately, you can't post attachments in here. This channel <#${channel}> is only for Twitch clips.."
+			"_comment": "Nie można wstawiać załącznikó",
+			"description": "**${user}** nie możesz tutaj dodawać załączników. Ten kanał <#${channel}> jest przeznaczony tylko pod klipy z Twicha."
 		},
 		"embed_alreadyposted": {
 			"_comment": "Clip is already posted!",
@@ -238,9 +238,9 @@
 			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
 			"description": "Your entry to the dashboard has been successful. **${tag_user}** can now log in to ${dashboard}. Questions? ${discord}"
 		},
-		"role_admin": "Admin",
-		"role_user": "User",
-		"cancel_success": "**${user}** you have successfully cancelled the grant command.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+		"role_admin": "Administrator",
+		"role_user": "Użytkownik",
+		"cancel_success": "**${user}** pomyślnie anulowano operację.",
+		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
 	}
 }
