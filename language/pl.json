@@ -183,60 +183,60 @@
 			"description": "**${user}** nie możesz tutaj dodawać załączników. Ten kanał <#${channel}> jest przeznaczony tylko pod klipy z Twicha."
 		},
 		"embed_alreadyposted": {
-			"_comment": "Clip is already posted!",
-			"description": "**${user}** Something went wrong. This clip has already been posted."
+			"_comment": "Klip został już przesłany!",
+			"description": "**${user}* Coś poszło nie tak. Ten klip został już przesłany."
 		},
-		"success": "Submitted by",
-		"updatechannel": "There are currently ${count} ${clips} submitted! | You can only post 1 clip each message!"
+		"success": "Przesłane przez",
+		"updatechannel": "Obecnie przesłane są ${count} ${clips}! | Możesz opublikować tylko 1 klip na każdą wiadomość!"
 	},
 
 
 	"lang": {
 		"_comment": "Translation for language.js",
 		"embed_start": {
-			"_comment": "Start of settings language",
-			"title": "**Language settings**",
-			"description": "Below you can see the available languages for Clip Manager. Press a flag to select the language you want to use.",
-			"field_1": "**Available languages**",
-			"field_1_description": "Close this message",
-			"field_2": "**We are looking for you**",
-			"field_2_description": "Can you translate English into your native language or a language you understand? Yeah? Awsome! We're looking for translators. Do you want to be a translator? Join Discord ${discord}"
+			"_comment": "Rozpocznij ustawienia języka",
+			"title": "**Ustawienia języka**",
+			"description": "Poniżej możesz zobaczyć inne dostępne języki dla Clip Manager. Naciśnij flagę, aby wybrać język, którego chcesz używać",
+			"field_1": "**Dostępne języki:**",
+			"field_1_description": "Zamknij tę wiadomość",
+			"field_2": "**Szukamy Cię**",
+			"field_2_description": "Czy potrafisz przetłumaczyć język angielski na język ojczysty lub język, który rozumiesz? Tak? Świetnie! Szukamy tłumaczy. Chcesz zostać tłumaczem? Dołącz do nas: ${discord}"
 		},
-		"already_this_language": "**${user}** the bot language was already set to English. Action **language settings** has been undone.",
-		"out_of_time": "**${user}** you have not responded within 30 seconds. Action **language settings** has been undone."
+		"already_this_language": "**${user}** język bota został już ustawiony na angielski. Operacja została anulowana.",
+		"out_of_time": "**${user}** Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
 	},
 	"grant": {
 		"_comment": "Translation for grant.js",
 		"embed_start": {
-			"_comment": "Tag a user",
-			"title": "**Give a user Dashboard access**",
-			"description": "**${user}** Please select the role that you want to give the user.",
-			"field_1": "**Available roles**",
-			"field_2": "**User features**",
-			"field_2_description": "➟ View clips\n➟ Download clips",
-			"field_3": "**Admin features**",
-			"field_3_description": "➟ Give users access.\n➟ Delete clips\n➟ Edit bot settings\n"
+			"_comment": "Oznacz użytkownika",
+			"title": "**Przyznaj użytkownikowi dostęp do Dashboard**",
+			"description": "**${user}** Wybierz uprawnienia, które chcesz przypisać użytkownikowi.",
+			"field_1": "**Dostępne uprawnienia**",
+			"field_2": "**Funkcje użytkownika**",
+			"field_2_description": "➟ Oglądanie klipów\n➟ Pobieranie klipów",
+			"field_3": "**Funkcje administratora**",
+			"field_3_description": "➟ Dawanie dostępu użytkownikom.\n➟ Usuwanie klipów\n➟ Zmienianie ustawień bota\n"
 		},
 		"embed_tag": {
-			"_comment": "Tag a user",
-			"description": "**${user}** please tag now the user to give his access to the dashboard.",
-			"field_1": "Selected role"
+			"_comment": "Oznacz użytkownika",
+			"description": "**${user}** proszę oznacz teraz użytkownika,któremu chcesz dać dostęp do dashboard.",
+			"field_1": "Wybrana rola:"
 		},
 		"embed_invalid_permissions": {
-			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
-			"description": "**${user}** you don't have enough permissions to perform this action."
+			"_comment": "Użytkownik ma rolę 'użytkownik' zamiast 'admin'. Nie można uruchomić tego polecenia na serwerze.",
+			"description": "**${user}** nie masz wystarczających uprawnień, aby wykonać tą operacje."
 		},
 		"custom_message": {
-			"_comment": "Custom messages instead of embeds",
-			"tag_user": "**${user}** Please tag a valid member.",
-			"user_bot": "**${user}** You cant tag a bot. So you can't give him access to the dashboard.",
-			"already_access": "**${user}** This user already has access to the dashboard. Do you want to change his role? Remove his old role in the dashboard.",
-			"no_access_command": "**${user}** You don't have access to this command. The sever adminstrator must give you access first.",
-			"max_access": "**${user}** You have given the maximum number of access, you have created of the ${min}/${max}."
+			"_comment": "Niestandardowe wiadomości zamiast embed",
+			"tag_user": "**${user}** Proszę oznaczyć prawidłowego członka.",
+			"user_bot": "**${user}** Nie możesz oznaczyć bota. Więc nie możesz dać mu dostępu do dashboard.",
+			"already_access": "**${user}** Ten użytkownik ma już dostęp do dashboard. Chcesz zmienić jego rolę? Usuń starą rolę z dashboard.",
+			"no_access_command": "**${user}** Nie masz dostępu do tego polecenia. Administrator serwera musi najpierw dać Ci uprawnienia.",
+			"max_access": "**${user}** Podałeś maksymalną liczbę dostępu, możesz stworzyć ${min}/${max}."
 		},
 		"embed_success": {
-			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
-			"description": "Your entry to the dashboard has been successful. **${tag_user}** can now log in to ${dashboard}. Questions? ${discord}"
+			"_comment": "Użytkownik ma rolę 'użytkownik' zamiast 'admin'. Nie można uruchomić tego polecenia na serwerze.",
+			"description": "nasze wejście do dashboard zakończyło się powodzeniem. **${tag_user}** może teraz zalogować się do: ${dashboard}. Pytania? ${discord}"
 		},
 		"role_admin": "Administrator",
 		"role_user": "Użytkownik",
