@@ -242,5 +242,14 @@
 		"role_user": "User",
 		"cancel_success": "**${user}** you have successfully cancelled the grant command.",
 		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
+	},
+	"team": {
+		"_comment": "Translation for team.js",
+		"embed_start": {
+			"_comment": "Posting embed",
+			"title": "**Our team**",
+			"description": "Each of these top athletes gives his heart and soul every day so that we can guarantee as much quality as possible. From posting new languages to updating Clip Manager, organising events or managing one of these top teams: they all do it and are all great at what they do!",
+			"field_1": "**Staff**"
+		}
 	}
 }
