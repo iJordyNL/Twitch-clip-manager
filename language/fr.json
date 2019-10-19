@@ -242,5 +242,14 @@
 		"role_user": "Utilisateur",
 		"cancel_success": "**${user}** vous avez annulé la commande d'autorisation avec succès.",
 		"out_of_time": "Vous n'avez pas répondu dans les 30 secondes. L'action a été annulée."
+	},
+	"team": {
+		"_comment": "Translation for team.js",
+		"embed_start": {
+			"_comment": "Posting embed",
+			"title": "**Our team**",
+			"description": "Each of these top athletes gives his heart and soul every day so that we can guarantee as much quality as possible. From posting new languages to updating Clip Manager, organising events or managing one of these top teams: they all do it and are all great at what they do!",
+			"field_1": "**Staff**"
+		}
 	}
 }
