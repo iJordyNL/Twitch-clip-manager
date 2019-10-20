@@ -244,12 +244,12 @@
 		"out_of_time": "Vous n'avez pas répondu dans les 30 secondes. L'action a été annulée."
 	},
 	"team": {
-		"_comment": "Translation for team.js",
+		"_comment": "Traduction pour team.js",
 		"embed_start": {
 			"_comment": "Posting embed",
-			"title": "**Our team**",
-			"description": "Each of these top athletes gives his heart and soul every day so that we can guarantee as much quality as possible. From posting new languages to updating Clip Manager, organising events or managing one of these top teams: they all do it and are all great at what they do!",
-			"field_1": "**Staff**"
+			"title": "**Notre équipe**",
+			"description": "Chacun de ces athlètes de haut niveau se donne corps et âme tous les jours pour que nous puissions garantir la meilleure qualité possible. De la traduction à la mise à jour de Clip Manager, en passant par l'organisation d'événements ou la gestion d'une de ces meilleures équipes : ils le font tous et sont tous excellents dans ce qu'ils font!",
+			"field_1": "**Le personnel**"
 		}
 	}
 }
