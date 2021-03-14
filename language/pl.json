@@ -1,255 +1,93 @@
 {
-	"translator": {
-		"github": "Kaktus2225",
-		"discord": "Kaktus_2225#5044",
-		"language": "Polski",
-		"last_update": "4 Paź 2019 16:53",
-
-		"field_1": "Tłumacz",
-		"field_2": "Github",
-		"field_3": "Ostatnia aktualizacja",
-		"field_4": "Język"
-	},
-
-
-	"main": {
-		"invalid_permission_title": "**Brak uprawnień**",
-		"invalid_permission_bot": "**${user}** Potrzeba uprawnień: **${permission}**!",
-		"invalid_permission_user": "**${user}** Nie posiadasz uprawnień: **${permission}**!"
-	},
-
-
-	"setup": {
-		"_comment": "Translation for setup.js",
-		"embed_start": {
-			"_comment": "Rozpocznij konfigurację bota",
-			"title": "Fajnie, że chcesz korzystać z Clip Managera!",
-			"description": "Chcesz kontynuować konfigurację ${bot}?",
-			"field_1": "Tak, rozpocznij konfiguracje",
-			"field_2": "Nie, anuluj"
-		},
-		"embed_enterchannel": {
-			"_comment": "Konfiguracja się rozpocznie kiedy tak",
-			"description": "**${user}** Proszę oznacz teraz #kanał lub podaj ID kanału na którym ma pracować bot.\n Wpisz ``Cancel`` aby anulować konfiguracje."
-		},
-		"embed_alreadysetup": {
-			"_comment": "Bot jest już skonfigurowany",
-			"title": "**Coś poszło nie tak.**",
-			"description": "**${user}** Clip Manager jest aktywny i skonfigurowany. Jeżeli chcesz zresetować konfigurację to użyj komendy: **${prefix}reset**"
-		},
-		"embed_wrongformat": {
-			"_comment": "Zły format kanału",
-			"description": "**${user}** Ten kanał jest nieosiągalny. Proszę oznacz #kanał lub podaj ID kanału!"
-		},
-		"embed_channelnotexist": {
-			"_comment": "Kanał nie istnieje",
-			"description": "**${user}** Ten kanał nie istnieje. Proszę oznacz #kanał lub podaj ID kanału!"
-		},
-		"embed_success": {
-			"_comment": "Bot został skonfigurowany pomyślnie",
-			"title": "Clip Manager został skonfigurowany pomyślnie",
-			"description": "Clip Manager został skonfigurowany pomyślnie. Poniżej możesz zobaczyć adres Panelu oraz kanał który został ustawiony.",
-			"field_1": "Skonfigurowany kanał:",
-			"field_2": "Panel:",
-			"field_3": "Pomoc:"
-		},
-		"clip_titlename": "Obecnie przesłano 0 klipów! | Możesz opublikować maksymalnie 1 klip na 1 wiadomość!",
-		"cancel_success": "${user} pomyślnie przerwano konfiguracje.",
-		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
-	},
-
-
-	"reset": {
-		"_comment": "Translation for reset.js",
-		"embed_start": {
-			"_comment": "Command activated",
-			"title": "**Jesteś pewien, że chcesz kontynuować usunięcie konfiguracji?**",
-			"description": "**${user}** aby kontynuować usunięcie konfiguracji kliknij: ✅, jeżeli chcesz anulować to kliknij: ❎."
-		},
-		"embed_success": {
-			"_comment": "Poprawnie dokonano usunięcia konfiguracji bota",
-			"description": "**${user}** udało Ci się pomyślnie usunąć konfiguracje bota. Jeżeli chcesz znów używać Clip Manager, wpisz: **${prefix}setup**"
-		},
-		"embed_notactive": {
-			"_comment": "Poprawinie dokonano usunięcia konfiguracji bota",
-			"title": "**Coś poszło nie tak.**",
-			"description": "**${user}** Clip Manager nie jest skonfigurowany poprawnie. Jeżeli chcesz skonfigurować bota wpisz: **${prefix}setup**"
-		},
-		"reset": {
-			"setAuthor": "Clip Manager został skonfigurowany pomyślnie",
-			"setDescription": "Clip Manager został skonfigurowany pomyślnie. Poniżej możesz zobaczyć adres panelu oraz kanał który został ustawiony.",
-			"addField_1": "Skonfigurowany kanał:",
-			"addField_2": "Panel:",
-			"addField_3": "Discord:"
-		},
-		"cancel_success": "${user} pomyślnie anulowano operację.",
-		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
-	},
-
-
-	"about": {
-			"_comment": "Translation for about.js",
-			"title": "**Kim jestem?**",
-			"description": "Jestem Clip Manager, pomagam ludziom tworzyć kompilacje klipów z twitcha. Na przykład, YouTube. Zobacz wszystkie komendy wysyłając ${prefix}help",
-			"field_1_title": "**Moja strona**",
-			"field_1_description": "Możesz mnie znaleźć na stronie: ${website}",
-			"field_2_title": "**CM+**",
-			"field_2_description": "Aby wesprzeć moją prace, oferuję niektóre funkcje, które są dostępne tylko dla użytkowników CM+. Clip Manager+ jest dostępny na ${website} w niskiej cenie."
-	},
-
-
-	"help": {
-		"_comment": "Translation for help.js",
-		"field_1": "**Komendy główne**",
-		"command_help": "Wyświetl wszystkie komendy.",
-		"command_about": "O mnie.",
-		"command_status": "Zobacz status serwerów.",
-		"command_translator": "Zobacz kto jest autorem polskiego tłumaczenia.",
-		"command_lang": "Zmień język.",
-
-		"field_2": "**Komendy konfiguracyjne**",
-		"command_setup": "Uruchom konfiguracje.",
-		"command_grant": "Daj dostęp innym użytkownikom do panelu.",
-
-		"field_3": "**Komenda resetu**",
-		"command_reset": "Zresetuj całą konfiguracje oraz dostęp do panelu i wszystkie klipów które zostały wysłane!"
-	},
-
-
-	"status": {
-		"_comment": "Translation for status.js",
-		"embed_statistics": {
-			"title":"**Statystyki**",
-			"description": "Jestem na: **${count_servers}** serwerach\n Na: **${count_setup}** serwerach dokonano poprawnej konfiguracji.\n W sumie wysłano już: **${count_totalguildclips}** klipów."
-		}
-	},
-
-
-	"key": {
-		"_comment": "Translation for key.js",
-		"embed_start": {
-			"_comment": "Komenda aktywowana",
-			"title": "**Posiadasz klucz dostępu?**",
-			"description": "**${user}** dostałeś od kogoś klucz? Tak ✅ | Nie ❎"
-		},
-		"embed_enterkey": {
-			"_comment": "KOMENTARZ?!??",
-			"description": "**${user}** proszę wpisz teraz poprawny klucz dostępu.\n Wpisz ``Cancel`` aby anulować operacje."
-		},
-		"embed_keyalreadyactive": {
-			"_comment": "Klucz jest już aktywowany.",
-			"description": "**${user}** ten klucz jest już aktywowany. Jeśli uważasz, że to pomyłka, skontaktuj się z administratorem serwera."
-		},
-		"embed_keydontexist": {
-			"_comment": "Ten klucz nie istnieje",
-			"description": "**${user}** ten klucz nie istnieje. Jeśli uważasz, że to pomyłka, skontaktuj się z administratorem serwera."
-		},
-		"embed_already_access": {
-			"_comment": "Użytkownik ma już dostęp do panel serwera.",
-			"description": "**${user}** jesteś już zarejestrowany na tym serwerze!"
-		},
-		"embed_wrong_guild": {
-			"_comment": "Ten klucz nie pochodzi z tego serwera.",
-			"description": "**${user}** aktywuj ten klucz na wybranym serwerze!"
-		},
-		"embed_success": {
-			"_comment": "Ten klucz jest poprawny.",
-			"description": "**${user}** Twój klucz `${key}` został pomyślnie aktywowany! Możesz teraz się logować na: ${dashboard}. Pytania? ${discord}"
-		},
-		"cancel_success": "**${user}** pomyślnie anulowano operacje.",
-		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
-	},
-
-
-	"clips": {
-		"_comment": "Translation for message.js",
-		"embed_userclipsonly": {
-			"_comment": "Tylko klipy twitcha od określonego streamera.",
-			"description": "**${user}**Tutaj można umieścić tylko klipy z Twitcha ** $ {twitchuser} **!"
-		},
-		"embed_canttalk": {
-			"_comment": "Urzytkownicy nie mogą rozmawiać na tym kanale",
-			"description": "**${user}** niestety nie możesz tutaj mówić. Ten kanał <#${channel}> jest przeznaczony tylko pod klipy z Twicha.",
-			"field_1": "Przykład:",
-			"field_2": "Twoja wiadomość:"
-		},
-		"embed_cantfindclip": {
-			"_comment": "Klip nie istnieje",
-			"description": "**${user}** coś poszło nie tak. Nie mogę znaleźć tego klipu.",
-			"field_1": "**Twoja wiadomość:**"
-		},
-		"embed_noattachments": {
-			"_comment": "Nie można wstawiać załączników",
-			"description": "**${user}** nie możesz tutaj dodawać załączników. Ten kanał <#${channel}> jest przeznaczony tylko pod klipy z Twicha."
-		},
-		"embed_alreadyposted": {
-			"_comment": "Klip został już przesłany!",
-			"description": "**${user}* Coś poszło nie tak. Ten klip został już przesłany."
-		},
-		"success": "Przesłane przez",
-		"updatechannel": "Obecnie przesłane są ${count} ${clips}! | Możesz opublikować tylko 1 klip na każdą wiadomość!"
-	},
-
-
-	"lang": {
-		"_comment": "Translation for language.js",
-		"embed_start": {
-			"_comment": "Rozpocznij ustawienia języka",
-			"title": "**Ustawienia języka**",
-			"description": "Poniżej możesz zobaczyć inne dostępne języki dla Clip Manager. Naciśnij flagę, aby wybrać język, którego chcesz używać",
-			"field_1": "**Dostępne języki:**",
-			"field_1_description": "Zamknij tę wiadomość",
-			"field_2": "**Szukamy Cię**",
-			"field_2_description": "Czy potrafisz przetłumaczyć język angielski na język ojczysty lub język, który rozumiesz? Tak? Świetnie! Szukamy tłumaczy. Chcesz zostać tłumaczem? Dołącz do nas: ${discord}"
-		},
-		"already_this_language": "**${user}** język bota został już ustawiony na polski. Operacja została anulowana.",
-		"out_of_time": "**${user}** Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
-	},
-	"grant": {
-		"_comment": "Translation for grant.js",
-		"embed_start": {
-			"_comment": "Oznacz użytkownika",
-			"title": "**Przyznaj użytkownikowi dostęp do panelu**",
-			"description": "**${user}** Wybierz uprawnienia, które chcesz przypisać użytkownikowi.",
-			"field_1": "**Dostępne uprawnienia**",
-			"field_2": "**Funkcje użytkownika**",
-			"field_2_description": "➟ Oglądanie klipów\n➟ Pobieranie klipów",
-			"field_3": "**Funkcje administratora**",
-			"field_3_description": "➟ Dawanie dostępu użytkownikom.\n➟ Usuwanie klipów\n➟ Zmienianie ustawień bota\n"
-		},
-		"embed_tag": {
-			"_comment": "Oznacz użytkownika",
-			"description": "**${user}** proszę oznacz teraz użytkownika, któremu chcesz dać dostęp do panelu.",
-			"field_1": "Wybrana rola:"
-		},
-		"embed_invalid_permissions": {
-			"_comment": "Użytkownik ma rolę 'użytkownik' zamiast 'admin'. Nie można uruchomić tego polecenia na serwerze.",
-			"description": "**${user}** nie masz wystarczających uprawnień, aby wykonać tą operacje."
-		},
-		"custom_message": {
-			"_comment": "Niestandardowe wiadomości zamiast embed",
-			"tag_user": "**${user}** Proszę oznaczyć prawidłowego członka.",
-			"user_bot": "**${user}** Nie możesz oznaczyć bota. Więc nie możesz dać mu dostępu do panelu.",
-			"already_access": "**${user}** Ten użytkownik ma już dostęp do panelu. Chcesz zmienić jego rolę? Usuń starą rolę dostępem do panelu.",
-			"no_access_command": "**${user}** Nie masz dostępu do tego polecenia. Administrator serwera musi najpierw dać Ci uprawnienia.",
-			"max_access": "**${user}** Podałeś maksymalną liczbę dostępu, możesz stworzyć ${min}/${max}."
-		},
-		"embed_success": {
-			"_comment": "Użytkownik ma rolę 'użytkownik' zamiast 'admin'. Nie można uruchomić tego polecenia na serwerze.",
-			"description": "nasze wejście do panelu zakończyło się powodzeniem. **${tag_user}** może teraz zalogować się do: ${dashboard}. Pytania? ${discord}"
-		},
-		"role_admin": "Administrator",
-		"role_user": "Użytkownik",
-		"cancel_success": "**${user}** pomyślnie anulowano operację.",
-		"out_of_time": "Nie odpowiadałeś przez 30 sekund. Operacja została przerwana."
-	},
-	"team": {
-		"_comment": "Translation for team.js",
-		"embed_start": {
-			"_comment": "Posting embed",
-			"title": "**Nasz zespół**",
-			"description": "Każdy z nas daje z siebie wszystko, abyśmy mogli zagwarantować Wam jak najwyższą jakość . Od publikowania nowych języków po aktualizację Clip Managera, organizowanie wydarzeń lub zarządzanie jednym z tych najlepszych zespołów: wszyscy to robią i są dobrzy w tym, co robią!",
-			"field_1": "**Członkowie**"
-		}
-	}
+    "translator": {
+        "github": "Your github username",
+		"discord": "Your discord here",
+		"language": "File language here",
+		"last_update": "14 March 2021"
+    },
+    "permissions": {
+        "title": "No permission to {{action}}",
+        "desc": "Requires **{{permissions}}** permission."
+    },
+    "event": {
+        "comment_": "// event section",
+        "twitch": {
+            "replace_message": "{{twitch_url}} | Submitted by {{dc_tag}",
+            "replace_topic": "There are currently {{clip_count}} {{clip_word}} submitted! | You can only post 1 clip each message!"
+        },
+        "message": {
+            "noattachments": {
+                "title": "No attachments allowed",
+                "desc": "**{{dc_username}}** unfortunately, you can't post attachments in here. This channel is only for Twitch clips."
+            },
+            "usercanttalk": {
+                "comment_": "User cannot talk in the clips channel",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** unfortunately, you are not allowed to speak in here. This channel is only for Twitch clips."
+            },
+            "platformmaintenance": {
+                "comment_": "Method Twitch or Mixer is disabled in all the servers.",
+                "title": "[platform] method maintenance",
+                "desc": "**{{dc_username}}** This [platform] method is currently in a maintenance phase with the reason:",
+                "reason": "No Reason specified."
+            },
+            "platformdisabled": {
+                "comment_": "Method Twitch or Mixer is disabled a specific server.",
+                "title": "[platform] method disabled",
+                "desc": "**{{dc_username}}** [platform] methode is disabled in this server, the server owner can change this in the Clip Manager settings."
+            },
+            "clipdontexist": {
+                "comment_": "Clip not found.",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** I cant find the clip [{{twitch_url}}]({{twitch_url}})"
+            },
+            "clipalreadyexist": {
+                "comment_": "Clip already exist in the database (Server based).",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** The clip [{{twitch_url}}]({{twitch_url}}) has already been posted by **{{sender_dc_tag}}**"
+            },
+            "onlyfromstreamer": {
+                "comment_": "Allow only a specific clip from streamer only",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** Only the clips from {{system_broadcasters}} **{{twitch_broadcasters}}** can be placed here!"
+            },
+            "streamerblocked": {
+                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** No clips from streamer **{{twitch_broadcaster}}** can be placed here."
+            },
+            "testblock": {
+                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
+                "title": "Something went wrong",
+                "desc": "{{twitch_views}}"
+            }
+        }
+    },
+    "commands": {
+        "comment_": "// Commands section",
+        "help": {
+            "title": "General Commands",
+            "help": {
+                "desc": "Displays all of my commands."
+            },
+            "status": {
+                "desc": "Get information about the status of Clip Manager."
+            },
+            "desc": "To setup ClipManager. Visit our [dashboard]({{url}}) "
+        },
+        "status": {
+            "bot": {
+                "desc": "Bot Information"
+            },
+            "build": {
+                "desc": "Build Information"
+            },
+            "system": {
+                "desc": "System Information"
+            },
+            "live": {
+                "desc": "Live Information"
+            }
+        }
+    }
 }
