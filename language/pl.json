@@ -12,7 +12,7 @@
     "event": {
         "comment_": "// event section",
         "twitch": {
-            "replace_message": "{{twitch_url}} | Przesłany przez {{dc_tag}",
+            "replace_message": "{{twitch_url}} | Przesłany przez {{dc_tag}}",
             "replace_topic": "Przesłano tu już {{clip_count}} {{clip_word}}! | Możesz dodać maksymalnie 1 klip na wiadomość!"
         },
         "message": {
