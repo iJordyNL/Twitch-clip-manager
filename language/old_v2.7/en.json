@@ -1,0 +1,88 @@
+{
+    "translator": {
+      "comment_": "// -",
+      "language": "English",
+      "discord": "Jordy.#0001"
+    },
+    "event": {
+        "comment_": "// event section",
+        "twitch": {
+            "replace_message": "{{twitch_url}} | Submitted by {{dc_tag}",
+            "replace_topic": "There are currently {{clip_count}} {{clip_word}} submitted! | You can only post 1 clip each message!"
+        },
+        "message": {
+            "noattachments": {
+                "title": "No attachments allowed",
+                "desc": "**{{dc_username}}** unfortunately, you can't post attachments in here. This channel is only for Twitch clips."
+            },
+            "usercanttalk": {
+                "comment_": "User cannot talk in the clips channel",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** unfortunately, you are not allowed to speak in here. This channel is only for Twitch clips."
+            },
+            "platformmaintenance": {
+                "comment_": "Method Twitch or Mixer is disabled in all the servers.",
+                "title": "[platform] method maintenance",
+                "desc": "**{{dc_username}}** This [platform] method is currently in a maintenance phase with the reason:",
+                "reason": "No Reason specified."
+            },
+            "platformdisabled": {
+                "comment_": "Method Twitch or Mixer is disabled a specific server.",
+                "title": "[platform] method disabled",
+                "desc": "**{{dc_username}}** [platform] methode is disabled in this server, the server owner can change this in the Clip Manager settings."
+            },
+            "clipdontexist": {
+                "comment_": "Clip not found.",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** I cant find the clip [{{twitch_url}}]({{twitch_url}})"
+            },
+            "clipalreadyexist": {
+                "comment_": "Clip already exist in the database (Server based).",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** The clip [{{twitch_url}}]({{twitch_url}}) has already been posted by **{{sender_dc_tag}}**"
+            },
+            "onlyfromstreamer": {
+                "comment_": "Allow only a specific clip from streamer only",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** Only the clips from {{system_broadcasters}} **{{twitch_broadcasters}}** can be placed here!"
+            },
+            "streamerblocked": {
+                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** No clips from streamer **{{twitch_broadcaster}}** can be placed here."
+            },
+            "testblock": {
+                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
+                "title": "Something went wrong",
+                "desc": "{{twitch_views}}"
+            }
+        }
+    },
+    "commands": {
+        "comment_": "// Commands section",
+        "help": {
+            "title": "General Commands",
+            "help": {
+                "desc": "Displays all of my commands."
+            },
+            "status": {
+                "desc": "Get information about the status of Clip Manager."
+            },
+            "desc": "To setup ClipManager. Visit our [dashboard]({{url}}) "
+        },
+        "status": {
+            "bot": {
+                "desc": "Bot Information"
+            },
+            "build": {
+                "desc": "Build Information"
+            },
+            "system": {
+                "desc": "System Information"
+            },
+            "live": {
+                "desc": "Live Information"
+            }
+        }
+    }
+}
