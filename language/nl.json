@@ -1,255 +1,93 @@
 {
-	"translator": {
-		"github": "GodlyFox & iJordyNL",
-		"discord": "GodlyFox.#3462 & Jordy.#0001",
-		"language": "Nederlands",
-		"last_update": "25 May 2019 20:00",
-
-		"field_1": "Vertalers",
-		"field_2": "Github gebruikersnaam",
-		"field_3": "Laatste update",
-		"field_4": "Taal"
-	},
-
-
-	"main": {
-		"invalid_permission_title": "**Ongeldige rechten**",
-		"invalid_permission_bot": "**${user}** Ik heb de **${permission}** rechten nodig!",
-		"invalid_permission_user": "**${user}** U heeft de **${permission}** rechten nodig!"
-	},
-
-
-	"setup": {
-		"_comment": "Translation for setup.js",
-		"embed_start": {
-			"_comment": "Start of bot set up",
-			"title": "Leuk dat u Clip Manager wilt gebruiken!",
-			"description": "Als u door wilt gaan, om ${bot} te installeren.",
-			"field_1": "Vervolg met instellen",
-			"field_2": "Stop met instellen"
-		},
-		"embed_enterchannel": {
-			"_comment": "Start of bot set up if anwser is yes",
-			"description": "**${user}** Please tag now a valid #channel to set-up the bot.\n Type ``Cancel`` to stop the set up."
-		},
-		"embed_alreadysetup": {
-			"_comment": "Bot is already set-up",
-			"title": "**Something went wrong.**",
-			"description": "**${user}** Clip Manager is already active and set-up. If you want to reset the bot use the command **${prefix}reset**"
-		},
-		"embed_wrongformat": {
-			"_comment": "Wronf format of channel",
-			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
-		},
-		"embed_channelnotexist": {
-			"_comment": "Channel does not exist",
-			"description": "**${user}** This channel does not exist. Please tag a #channel or enter a channel-id!"
-		},
-		"embed_success": {
-			"_comment": "Bot has been set up successfully",
-			"title": "Clip Manager has been set up successfully",
-			"description": "Clip Manager has been set up successfully. Below you can see the Dashboard url and which channel has been set.",
-			"field_1": "This channel is set",
-			"field_2": "Dashboard",
-			"field_3": "Support"
-		},
-		"clip_titlename": "There are currently 0 clips submitted! | You can only post 1 clip each message!",
-		"cancel_success": "${user} you have successfully cancelled the set up.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
-	},
-
-
-	"reset": {
-		"_comment": "Translation for reset.js",
-		"embed_start": {
-			"_comment": "Command activated",
-			"title": "**Are you sure you want to reset the bot?**",
-			"description": "**${user}** to Continue reset react with ✅, nope? React with ❎."
-		},
-		"embed_success": {
-			"_comment": "Bot has been successfully resetted",
-			"description": "**${user}** You successfully reset the bot. If you want to use Clip Manager again, type **${prefix}setup**"
-		},
-		"embed_notactive": {
-			"_comment": "Bot has been successfully resetted",
-			"title": "**Something went wrong.**",
-			"description": "**${user}** Clip Manager has not been set up yet. If you want to set up the bot use the command **${prefix}setup**"
-		},
-		"reset": {
-			"setAuthor": "Clip Manager has been successfully set up",
-			"setDescription": "Clip Manager has been successfully set up. Below you can see the Dashboard url and which channel has been set.",
-			"addField_1": "Channel set",
-			"addField_2": "Dashboard",
-			"addField_3": "Discord"
-		},
-		"cancel_success": "${user} you have successfully cancelled the reset.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
-	},
-
-
-	"about": {
-			"_comment": "Translation for about.js",
-			"title": "**Wie ben ik?**",
-			"description": "Ik ben Clip Manager, Ik help mensen die compilaties maken van Twitch clips. Voor bijvoorbeeld om het op YouTube te plaatsen. Bekijk al mijn command's door het sturen van ${prefix}help",
-			"field_1_title": "**Mijn website**",
-			"field_1_description": "Je kan mij vinden op ${website}",
-			"field_2_title": "**Premium**",
-			"field_2_description": "Om mijn ontwikkeling te ondersteunen bied ik een aantal functies die alleen beschikbaar zijn voor premium gebruikers. Clip Manager Premium is beschikbaar op ${website}tegen lage kosten."
-	},
-
-
-	"help": {
-		"_comment": "Translation for help.js",
-		"field_1": "**Algemene commands**",
-		"command_help": "Weergeeft al mijn commands.",
-		"command_about": "Leer te weten wie ik ben.",
-		"command_status": "Informatie over de status van Clip Manager.",
-		"command_translator": "Kijk wie deze taal vertaald heeft.",
-		"command_lang": "Verander de taal van de bot.",
-
-		"field_2": "**Configuratie commands**",
-		"command_setup": "Installeer Clip Manager.",
-		"command_grant": "Activeer dashboard toegang voor een gebruiker.",
-
-		"field_3": "**Reset command**",
-		"command_reset": "Resets alles wat is ingesteld opnieuw in. Ook toegang tot het dashboard en alle clips die zijn verzonden!"
-	},
-
-
-	"status": {
-		"_comment": "Translation for status.js",
-		"embed_statistics": {
-			"title":"**Statistieken**",
-			"description": "Ik zit in **${count_servers}** servers\n Er zijn **${count_setup}** servers succesvol geïnstalleerd.\n Er zijn totaal **${count_totalguildclips}** clips verstuurt."
-		}
-	},
-
-
-	"key": {
-		"_comment": "Translation for key.js",
-		"embed_start": {
-			"_comment": "Command activated",
-			"title": "**Heb je een sleutel?**",
-			"description": "**${user}** heb je van iemand een sleutel gekregen? Ja ✅ | Nee ❎"
-		},
-		"embed_enterkey": {
-			"_comment": "COMMENT?!??",
-			"description": "**${user}** typ nu een geldige toegangssleutel om toegang te krijgen tot het server dashboard.\n Typ ``Cancel``` om het command voor de toegangssleutel te stoppen."
-		},
-		"embed_keyalreadyactive": {
-			"_comment": "Key is already activated.",
-			"description": "**${user}** deze sleutel is al gebruikt. Als je denkt dat dit fout is, neem dan contact op met uw server administrator."
-		},
-		"embed_keydontexist": {
-			"_comment": "key dont exist.",
-			"description": "**${user}** deze sleutel bestaat niet. Als je denkt dat dit fout is, neem dan contact op met uw server administrator."
-		},
-		"embed_already_access": {
-			"_comment": "User has already access to the server dashboard.",
-			"description": "**${user}** je bent al geregistreerd in deze server!"
-		},
-		"embed_wrong_guild": {
-			"_comment": "This key is not from this guild.",
-			"description": "**${user}** gebruik deze sleutel in de geselecteerde server!"
-		},
-		"embed_success": {
-			"_comment": "This key is correct.",
-			"description": "**${user}** je sleutel `${key}` is succesvol geactiveerd! Je kunt nu inloggen op ${dashboard}. Vragen? ${discord}"
-		},
-		"cancel_success": "**${user}** je hebt met succes de command voor de toegang sleutel geannuleerd.",
-		"out_of_time": "Je hebt niet binnen 30 seconden gereageerd. De actie is ongedaan gemaakt."
-	},
-
-
-	"clips": {
-		"_comment": "Translation for message.js",
-		"embed_userclipsonly": {
-			"_comment": "Only twitch clip(s) from a specific twitch streamer.",
-			"description": "Alleen de clips van **${twitchuser}** kan hier worden geplaatst!"
-		},
-		"embed_canttalk": {
-			"_comment": "User cant talk in chanel",
-			"description": "**${user}** helaas mag je hier niet praten. Dit tekstkanaal <#${channel}> is alleen voor Twitch clips.",
-			"field_1": "Example",
-			"field_2": "Your message was"
-		},
-		"embed_cantfindclip": {
-			"_comment": "Clip dont exist",
-			"description": "**${user}** er is iets fout gegaan. Ik kan de clip niet vinden.",
-			"field_1": "**Your message was**"
-		},
-		"embed_noattachments": {
-			"_comment": "Cant post attachments",
-			"description": "**${user}** Helaas, je kunt hier geen bijlagen plaatsen. Dit tekstkanaal <#${channel}> is alleen voor Twitch clips."
-		},
-		"embed_alreadyposted": {
-			"_comment": "Clip is already posted!",
-			"description": "**${user}** er is iets fout gegaan. Deze clip is al eerder geplaatst."
-		},
-		"success": "Geplaatst door",
-		"updatechannel": "Er zijn momenteel ${count} ${clips} ingestuurd! | Je kunt maar 1 clip per bericht plaatsen!"
-	},
-
-
-	"lang": {
-		"_comment": "Translation for language.js",
-		"embed_start": {
-			"_comment": "Start of settings language",
-			"title": "**Taal instellingen**",
-			"description": "Hieronder ziet u de beschikbare talen voor Clip Manager. Druk op een vlag om de taal te selecteren die u wilt gebruiken.",
-			"field_1": "**Beschikbare talen**",
-			"field_1_description": "Sluit dit bericht",
-			"field_2": "**Wij zijn op zoek naar u**",
-			"field_2_description": "Kunt u Nederlands vertalen naar uw moedertaal of een taal die u begrijpt? Ja? Geweldig! We zijn op zoek naar vertalers. Wilt u vertaler worden? Word lid van onze Discord server ${discord}"
-		},
-		"already_this_language": "**${user}** de bot taal was al ingesteld op Nederlands. Actie **taal instellingen** is ongedaan gemaakt.",
-		"out_of_time": "**${user}** je hebt niet binnen 30 seconden gereageerd. De actie **taal instellingen** is ongedaan gemaakt."
-	},
-	"grant": {
-		"_comment": "Translation for grant.js",
-		"embed_start": {
-			"_comment": "Tag a user",
-			"title": "**Give a user Dashboard access**",
-			"description": "**${user}** Please select the role that you want to give the user.",
-			"field_1": "**Available roles**",
-			"field_2": "**User features**",
-			"field_2_description": "➟ View clips\n➟ Download clips",
-			"field_3": "**Admin features**",
-			"field_3_description": "➟ Give users access.\n➟ Delete clips\n➟ Edit bot settings\n"
-		},
-		"embed_tag": {
-			"_comment": "Tag a user",
-			"description": "**${user}** please tag now the user to give his access to the dashboard.",
-			"field_1": "Selected role"
-		},
-		"embed_invalid_permissions": {
-			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
-			"description": "**${user}** you don't have enough permissions to perform this action."
-		},
-		"custom_message": {
-			"_comment": "Custom messages instead of embeds",
-			"tag_user": "**${user}** Please tag a valid member.",
-			"user_bot": "**${user}** You cant tag a bot. So you can't give him access to the dashboard.",
-			"already_access": "**${user}** This user already has access to the dashboard. Do you want to change his role? Remove his old role in the dashboard.",
-			"no_access_command": "**${user}** You don't have access to this command. The sever adminstrator must give you access first.",
-			"max_access": "**${user}** You have given the maximum number of access, you have created of the ${min}/${max}."
-		},
-		"embed_success": {
-			"_comment": "User has the role 'user' instead of 'admin'. He cant run this command in the server.",
-			"description": "Your entry to the dashboard has been successful. **${tag_user}** can now log in to ${dashboard}. Questions? ${discord}"
-		},
-		"role_admin": "Admin",
-		"role_user": "User",
-		"cancel_success": "**${user}** you have successfully cancelled the grant command.",
-		"out_of_time": "You have not responded within 30 seconds. Action has been undone."
-	},
-	"team": {
-		"_comment": "Translation for team.js",
-		"embed_start": {
-			"_comment": "Posting embed",
-			"title": "**Onze medewerkers**",
-			"description": "Elk van deze toppers geeft dagelijks zijn hart en ziel zodat wij zoveel mogelijk kwaliteit kunnen garanderen.  Van het posten van nieuwe talen, het updaten van Clip Manager, het organiseren van events of het beheren van een van deze topteam: ze doen het allemaal en zijn stuk voor stuk geweldig in wat ze doen!",
-			"field_1": "**medewerkers**"
-		}
-	}
+    "translator": {
+        "github": "Your github username",
+		"discord": "Your discord here",
+		"language": "File language here",
+		"last_update": "14 March 2021"
+    },
+    "permissions": {
+        "title": "No permission to {{action}}",
+        "desc": "Requires **{{permissions}}** permission."
+    },
+    "event": {
+        "comment_": "// event section",
+        "twitch": {
+            "replace_message": "{{twitch_url}} | Submitted by {{dc_tag}",
+            "replace_topic": "There are currently {{clip_count}} {{clip_word}} submitted! | You can only post 1 clip each message!"
+        },
+        "message": {
+            "noattachments": {
+                "title": "No attachments allowed",
+                "desc": "**{{dc_username}}** unfortunately, you can't post attachments in here. This channel is only for Twitch clips."
+            },
+            "usercanttalk": {
+                "comment_": "User cannot talk in the clips channel",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** unfortunately, you are not allowed to speak in here. This channel is only for Twitch clips."
+            },
+            "platformmaintenance": {
+                "comment_": "Method Twitch or Mixer is disabled in all the servers.",
+                "title": "[platform] method maintenance",
+                "desc": "**{{dc_username}}** This [platform] method is currently in a maintenance phase with the reason:",
+                "reason": "No Reason specified."
+            },
+            "platformdisabled": {
+                "comment_": "Method Twitch or Mixer is disabled a specific server.",
+                "title": "[platform] method disabled",
+                "desc": "**{{dc_username}}** [platform] methode is disabled in this server, the server owner can change this in the Clip Manager settings."
+            },
+            "clipdontexist": {
+                "comment_": "Clip not found.",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** I cant find the clip [{{twitch_url}}]({{twitch_url}})"
+            },
+            "clipalreadyexist": {
+                "comment_": "Clip already exist in the database (Server based).",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** The clip [{{twitch_url}}]({{twitch_url}}) has already been posted by **{{sender_dc_tag}}**"
+            },
+            "onlyfromstreamer": {
+                "comment_": "Allow only a specific clip from streamer only",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** Only the clips from {{system_broadcasters}} **{{twitch_broadcasters}}** can be placed here!"
+            },
+            "streamerblocked": {
+                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
+                "title": "Something went wrong",
+                "desc": "**{{dc_username}}** No clips from streamer **{{twitch_broadcaster}}** can be placed here."
+            },
+            "testblock": {
+                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
+                "title": "Something went wrong",
+                "desc": "{{twitch_views}}"
+            }
+        }
+    },
+    "commands": {
+        "comment_": "// Commands section",
+        "help": {
+            "title": "General Commands",
+            "help": {
+                "desc": "Displays all of my commands."
+            },
+            "status": {
+                "desc": "Get information about the status of Clip Manager."
+            },
+            "desc": "To setup ClipManager. Visit our [dashboard]({{url}}) "
+        },
+        "status": {
+            "bot": {
+                "desc": "Bot Information"
+            },
+            "build": {
+                "desc": "Build Information"
+            },
+            "system": {
+                "desc": "System Information"
+            },
+            "live": {
+                "desc": "Live Information"
+            }
+        }
+    }
 }
