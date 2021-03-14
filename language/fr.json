@@ -1,9 +1,9 @@
 {
     "translator": {
         "github": "Your github username",
-		"discord": "Your discord here",
-		"language": "File language here",
-		"last_update": "14 March 2021"
+	"discord": "Your discord here",
+	"language": "File language here",
+	"last_update": "14 March 2021"
     },
     "permissions": {
         "title": "No permission to {{action}}",
@@ -24,17 +24,6 @@
                 "comment_": "User cannot talk in the clips channel",
                 "title": "Something went wrong",
                 "desc": "**{{dc_username}}** unfortunately, you are not allowed to speak in here. This channel is only for Twitch clips."
-            },
-            "platformmaintenance": {
-                "comment_": "Method Twitch or Mixer is disabled in all the servers.",
-                "title": "[platform] method maintenance",
-                "desc": "**{{dc_username}}** This [platform] method is currently in a maintenance phase with the reason:",
-                "reason": "No Reason specified."
-            },
-            "platformdisabled": {
-                "comment_": "Method Twitch or Mixer is disabled a specific server.",
-                "title": "[platform] method disabled",
-                "desc": "**{{dc_username}}** [platform] methode is disabled in this server, the server owner can change this in the Clip Manager settings."
             },
             "clipdontexist": {
                 "comment_": "Clip not found.",
