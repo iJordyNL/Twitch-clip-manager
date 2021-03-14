@@ -1,53 +1,53 @@
 {
     "translator": {
-        "github": "Your github username",
-	"discord": "Your discord here",
-	"language": "File language here",
-	"last_update": "14 March 2021"
+        "github": "Kaktus2225",
+	"discord": "Kaktus_2225#7667",
+	"language": "Polski",
+	"last_update": "14 mar 2021"
     },
     "permissions": {
-        "title": "No permission to {{action}}",
-        "desc": "Requires **{{permissions}}** permission."
+        "title": "Nie masz uprawnień na {{action}}",
+        "desc": "Wymaga uprawnień **{{permissions}}**."
     },
     "event": {
         "comment_": "// event section",
         "twitch": {
-            "replace_message": "{{twitch_url}} | Submitted by {{dc_tag}",
-            "replace_topic": "There are currently {{clip_count}} {{clip_word}} submitted! | You can only post 1 clip each message!"
+            "replace_message": "{{twitch_url}} | Przesłany przez {{dc_tag}",
+            "replace_topic": "Przesłano tu już {{clip_count}} {{clip_word}}! | Możesz dodać maksymalnie 1 klip na wiadomość!"
         },
         "message": {
             "noattachments": {
-                "title": "No attachments allowed",
-                "desc": "**{{dc_username}}** unfortunately, you can't post attachments in here. This channel is only for Twitch clips."
+                "title": "Coś poszło nie tak",
+                "desc": "**{{dc_username}}** niestety nie możesz tu umieszczać załączników. Ten kanał jest przeznaczony jedynie do klipów z Twitcha."
             },
             "usercanttalk": {
                 "comment_": "User cannot talk in the clips channel",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** unfortunately, you are not allowed to speak in here. This channel is only for Twitch clips."
+                "title": "Coś poszło nie tak",
+                "desc": "**{{dc_username}}** niestety nie możesz tu rozmawiać. Ten kanał jest przeznaczony jedynie do klipów z Twitcha."
             },
             "clipdontexist": {
                 "comment_": "Clip not found.",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** I cant find the clip [{{twitch_url}}]({{twitch_url}})"
+                "title": "Coś poszło nie tak",
+                "desc": "**{{dc_username}}** nie mogę znaleźć klipu [{{twitch_url}}]({{twitch_url}})"
             },
             "clipalreadyexist": {
                 "comment_": "Clip already exist in the database (Server based).",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** The clip [{{twitch_url}}]({{twitch_url}}) has already been posted by **{{sender_dc_tag}}**"
+                "title": "Coś poszło nie tak",
+                "desc": "**{{dc_username}}** Klip [{{twitch_url}}]({{twitch_url}}) został już przesłany przez **{{sender_dc_tag}}**"
             },
             "onlyfromstreamer": {
                 "comment_": "Allow only a specific clip from streamer only",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** Only the clips from {{system_broadcasters}} **{{twitch_broadcasters}}** can be placed here!"
+                "title": "Coś poszło nie tak",
+                "desc": "**{{dc_username}}** Tutaj można przesłać tylko klipy z {{system_broadcasters}} **{{twitch_broadcasters}}**!"
             },
             "streamerblocked": {
                 "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** No clips from streamer **{{twitch_broadcaster}}** can be placed here."
+                "title": "Coś poszło nie tak",
+                "desc": "**{{dc_username}}** Nie można tu przesyłać klipów z kanału **{{twitch_broadcaster}}**"
             },
             "testblock": {
                 "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
-                "title": "Something went wrong",
+                "title": "Coś poszło nie tak",
                 "desc": "{{twitch_views}}"
             }
         }
@@ -55,27 +55,27 @@
     "commands": {
         "comment_": "// Commands section",
         "help": {
-            "title": "General Commands",
+            "title": "Komendy",
             "help": {
-                "desc": "Displays all of my commands."
+                "desc": "Lista wszystkich komend."
             },
             "status": {
-                "desc": "Get information about the status of Clip Manager."
+                "desc": "Informacje o statusie Clip Manager."
             },
-            "desc": "To setup ClipManager. Visit our [dashboard]({{url}}) "
+            "desc": "Aby skonfigurować Clip Manager. Odwiedź nasz [panel]({{url}}) "
         },
         "status": {
             "bot": {
-                "desc": "Bot Information"
+                "desc": "Statystyki bota"
             },
             "build": {
-                "desc": "Build Information"
+                "desc": "Informacje o kompilacji"
             },
             "system": {
-                "desc": "System Information"
+                "desc": "Informacje o systemie"
             },
             "live": {
-                "desc": "Live Information"
+                "desc": "Status serwerów"
             }
         }
     }
