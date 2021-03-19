@@ -6,48 +6,48 @@
 	"last_update": "14 March 2021"
     },
     "permissions": {
-        "title": "No permission to {{action}}",
-        "desc": "Requires **{{permissions}}** permission."
+        "title": "Aucune permission de {{action}}",
+        "desc": "Nécessite la permission **{{permissions}}**."
     },
     "event": {
         "comment_": "// event section",
         "twitch": {
-            "replace_message": "{{twitch_url}} | Submitted by {{dc_tag}",
-            "replace_topic": "There are currently {{clip_count}} {{clip_word}} submitted! | You can only post 1 clip each message!"
+            "replace_message": "{{twitch_url}} | Partagé par {{dc_tag}",
+            "replace_topic": "Il y a actuellement {{clip_count}} {{clip_word}} de partagé(s)! | Vous ne pouvez que publier 1 seul clip par message!"
         },
         "message": {
             "noattachments": {
-                "title": "No attachments allowed",
-                "desc": "**{{dc_username}}** unfortunately, you can't post attachments in here. This channel is only for Twitch clips."
+                "title": "Aucune pièce jointe n'est autorisée",
+                "desc": "**{{dc_username}}** malheureusement, vous ne pouvez pas publier de pièces jointes ici. Ce canal est uniquement pour les clips Twitch."
             },
             "usercanttalk": {
-                "comment_": "User cannot talk in the clips channel",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** unfortunately, you are not allowed to speak in here. This channel is only for Twitch clips."
+                "comment_": "L'utilisateur ne peut pas parler dans le canal des clips",
+                "title": "Il est arrivé quelque chose",
+                "desc": "**{{dc_username}}** malheureusement, vous ne pouvez pas parler ici. Ce canal est uniquement pour les clips Twitch."
             },
             "clipdontexist": {
-                "comment_": "Clip not found.",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** I cant find the clip [{{twitch_url}}]({{twitch_url}})"
+                "comment_": "Le clip est introuvable.",
+                "title": "Il est arrivé quelque chose",
+                "desc": "**{{dc_username}}** Je ne trouve pas le clip [{{twitch_url}}]({{twitch_url}})"
             },
             "clipalreadyexist": {
-                "comment_": "Clip already exist in the database (Server based).",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** The clip [{{twitch_url}}]({{twitch_url}}) has already been posted by **{{sender_dc_tag}}**"
+                "comment_": "Le clip existe déjà dans la base de données (Basé sur le serveur).",
+                "title": "Il est arrivé quelque chose",
+                "desc": "**{{dc_username}}** Le clip [{{twitch_url}}]({{twitch_url}}) a déjà été publié par **{{sender_dc_tag}}**"
             },
             "onlyfromstreamer": {
-                "comment_": "Allow only a specific clip from streamer only",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** Only the clips from {{system_broadcasters}} **{{twitch_broadcasters}}** can be placed here!"
+                "comment_": "Autoriser uniquement un clip spécifique du streamer",
+                "title": "Il est arrivé quelque chose",
+                "desc": "**{{dc_username}}** Seuls les clips de {{system_broadcasters}} **{{twitch_broadcasters}}** peuvent être publié ici!"
             },
             "streamerblocked": {
-                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
-                "title": "Something went wrong",
-                "desc": "**{{dc_username}}** No clips from streamer **{{twitch_broadcaster}}** can be placed here."
+                "comment_": "Le streamer a été bloqué, donc aucun clip de ce streamer ne peuvent être publiés.",
+                "title": "Il est arrivé quelque chose",
+                "desc": "**{{dc_username}}** Pas de clips du streamer **{{twitch_broadcaster}}** peuvent être publiés ici."
             },
             "testblock": {
-                "comment_": "The streamer has been blocked, so no clips of this streamer can be placed.",
-                "title": "Something went wrong",
+                "comment_": "Le streamer a été bloqué, donc aucun clip de ce streamer ne peut être publié.",
+                "title": "Il est arrivé quelque chose",
                 "desc": "{{twitch_views}}"
             }
         }
@@ -55,27 +55,27 @@
     "commands": {
         "comment_": "// Commands section",
         "help": {
-            "title": "General Commands",
+            "title": "Commandes Générales",
             "help": {
-                "desc": "Displays all of my commands."
+                "desc": "Afficher toutes les commandes."
             },
             "status": {
-                "desc": "Get information about the status of Clip Manager."
+                "desc": "Obtenez des informations sur l'état de Clip Manager."
             },
-            "desc": "To setup ClipManager. Visit our [dashboard]({{url}}) "
+            "desc": "Pour installer Clip Manager. Visitez notre [tableau de bord]({{url}}) "
         },
         "status": {
             "bot": {
-                "desc": "Bot Information"
+                "desc": "Information Bot"
             },
             "build": {
-                "desc": "Build Information"
+                "desc": "Information Build"
             },
             "system": {
-                "desc": "System Information"
+                "desc": "Information Système"
             },
             "live": {
-                "desc": "Live Information"
+                "desc": "Information Live"
             }
         }
     }
